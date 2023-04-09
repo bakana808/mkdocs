@@ -1,13 +1,14 @@
 ## Accessing BIOS
 Access BIOS -> hold VOLUME UP + POWER until chime is heard
-Access boot menu -> hold VOLUME DOWN + POWER until chime is heardjj
+Access boot menu -> hold VOLUME DOWN + POWER until chime is heard
+
 # Addons / Tweaks
 ## EmuDeck
-[EmuDeck](https://www.emudeck.com/)
-Installer (.desktop file): [link](https://www.emudeck.com/EmuDeck.desktop)
+[website](https://www.emudeck.com/)
+
+Installer (.desktop file): [installer](https://www.emudeck.com/EmuDeck.desktop)
 ## CryoUtilities
-[CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities)
-Installer (.desktop file): [link](https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/InstallCryoUtilities.desktop)
+[website](https://github.com/CryoByte33/steam-deck-utilities) [installer](https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/InstallCryoUtilities.desktop) (.desktop file)
 # Setup for Development
 ```bash
 # set sudo password
