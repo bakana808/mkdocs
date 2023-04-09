@@ -14,17 +14,12 @@ const STOP_SPEED = 2
 var total_pitch = 0.0  # reference to current pitch
 var total_yaw = 0.0
 
-var tether = null  # if not null,    skip processing any user movement
-
 var wishdir = Vector3.ZERO        # player's intended movement direction
 
 var ticks_grounded = 0  # number of ticks this player was on the floor
 
 @onready
 var crouch_tween = create_tween()
-
-@onready
-var lookang: Basis = $camera.transform.basis
 
 @onready
 var looktween = create_tween()
