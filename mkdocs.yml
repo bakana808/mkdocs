@@ -1,25 +1,27 @@
 site_name: octopod
 
 theme:
-    name: gitbook
-    # palette:
-    # # Light mode
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   primary: pink
-    #   accent: indigo
-    #   toggle:
-    #     icon: material/toggle-switch-off-outline
-    #     name: Switch to dark mode
+    name: markdown
+    font:
+      text: Source Serif Pro
+    palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
-    # # Dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   primary: pink
-    #   accent: blue
-    #   toggle:
-    #     icon: material/toggle-switch
-    #     name: Switch to light mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 # Extensions
 markdown_extensions:
