@@ -4,6 +4,7 @@ This is a guide on how to create an FPS player controller from scratch in Godot 
 - A first-person camera that is controlled by the mouse
 - Walking and strafing with the WASD keys
 - Jumping with the Spacebar
+- Accurate collision with floors, walls, and ramps in the world (stairs TBD)
 
 We will be implementing Quake-style movement physics in this controller.
 
@@ -130,12 +131,6 @@ func accelerate(wishdir: Vector3, delta: float):
 
 	velocity += addspeed * wishdir
 
-func untether():
-	tether = null
-	fix_angle()
-	
-func set_tether(rail):
-	tether = rail
 	
 # get the player's intended camera angle
 func get_wishlook() -> Basis:
@@ -147,7 +142,8 @@ func get_wishlook() -> Basis:
 		wishang = wishang.rotated(wishang.y, total_yaw -rail_rotation.y)
 		wishang = wishang.rotated(wishang.x, total_pitch -rail_rotation.x)
 		return wishang
-	
+
+ 
 func _physics_process(delta):
 	
 	var wishang = $look.transform.basis.orthonormalized()
