@@ -1,12 +1,21 @@
 # Creating an FPS Player Controller
 
 This is a guide on how to create an FPS player controller from scratch in Godot 4.0. This controller will feature:
+
 - A first-person camera that is controlled by the mouse
 - Walking and strafing with the WASD keys
 - Jumping with the Spacebar
 - Accurate collision with floors, walls, and ramps in the world (stairs TBD)
 
 We will be implementing Quake-style movement physics in this controller.
+
+## Input Mapping Setup
+
+## Creating the Main Scene
+
+Our main scene will contain 
+
+## 
 
 
 ``` gdscript linenums="1"
@@ -161,39 +170,8 @@ func _physics_process(delta):
 	var local = $look.to_local(position + velocity)
 	wishang = wishang.rotated(wishang.z, -local.x * 0.002)
 
-	# rail grind detection
-	if tether:
-		$spark_particles.emitting = true
-		$spark_particles.direction = -velocity.normalized() + Vector3(0, 0.5, 0)
-		
-		# jump out of grind
-		if Input.is_action_pressed("jump"):
-			print("jumped out of rail")
-			velocity.y = 10
-			untether()
-	else:
-		$spark_particles.emitting = false
-		
-	floor_snap_length = 0.1
-
 	if not is_on_floor():
-		# wallrunning left
-		if is_on_wall() and $camera/right.is_colliding() and is_equal_approx($camera/right.get_collision_normal().y, 0):
-			wishang = wishang.rotated(wishang.z, 0.1)
-			velocity.y -= 5 * delta
-			if Input.is_action_just_pressed("jump"):
-				velocity += Vector3(-25, 0, -5).rotated(Vector3.UP, $camera.rotation.y)
-				velocity.y = 10
-		# wallrunning right
-		elif is_on_wall() and $camera/left.is_colliding() and is_equal_approx($camera/left.get_collision_normal().y, 0):
-			wishang = wishang.rotated(wishang.z, -0.1)
-			velocity.y -= 5 * delta
-			if Input.is_action_just_pressed("jump"):
-				velocity += Vector3(25, 0, -5).rotated(Vector3.UP, $camera.rotation.y)
-				velocity.y = 10
-		# normal gravity
-		else:
-			velocity.y -= 25 * delta
+		velocity.y -= 25 * delta
 			
 	elif is_on_floor():
 		if Input.is_action_pressed("jump"):
