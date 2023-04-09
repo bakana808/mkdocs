@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/linux/Useful Commands.md",
+                "file": "docs/index.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/linux/Useful Commands.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/linux/Useful Commands.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/linux/Useful Commands.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "537f377272855ee4",
+  "active": "0995eb9e7373db9e",
   "lastOpenFiles": [
+    "docs/linux/Useful Commands.md",
     "docs/index.md",
     "docs/linux/SteamOS.md",
     "docs/linux/Setting up GRUB.md",
@@ -159,7 +160,6 @@
     "docs/linux/_attachments/Pasted image 20220730041624.png",
     "docs/linux/_attachments/Pasted image 20220730041534.png",
     "docs/linux/_attachments",
-    "docs/linux/Useful Commands.md",
     "docs/linux/Storage Drives.md",
     "docs/linux/Ricing.md",
     "docs/linux/Packages.md",
