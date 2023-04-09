@@ -1,4 +1,4 @@
-# Creating an FPS Player Controller
+# Creating a 3D FPS Player Controller
 
 This is a guide on how to create an FPS player controller from scratch in Godot 4.0. This controller will feature:
 
@@ -13,9 +13,9 @@ We will be implementing Quake-style movement physics in this controller.
 
 ## Creating the Main Scene
 
-Our main scene will contain 
+The main scene will contain some basic world geometry for our player to move around in. We'll be working on this first to give our player controller an area to continually test in.
 
-## 
+## Creating the 
 
 
 ``` gdscript linenums="1"
