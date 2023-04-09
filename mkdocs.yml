@@ -3,7 +3,7 @@ site_name: octopod
 theme:
     name: material
     font:
-      text: Source Serif Pro
+      text: Lato
     palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
