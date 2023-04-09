@@ -25,11 +25,18 @@ theme:
 
 # Extensions
 markdown_extensions:
+  # syntax highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - footnotes
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
   # - pymdownx.details
   # - pymdownx.magiclink
   - pymdownx.tasklist:

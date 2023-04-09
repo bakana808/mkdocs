@@ -4,9 +4,7 @@ Access boot menu -> hold VOLUME DOWN + POWER until chime is heard
 
 # Addons / Tweaks
 ## EmuDeck
-[website](https://www.emudeck.com/)
-
-Installer (.desktop file): [installer](https://www.emudeck.com/EmuDeck.desktop)
+[website](https://www.emudeck.com/) [installer](https://www.emudeck.com/EmuDeck.desktop) (.desktop file)
 ## CryoUtilities
 [website](https://github.com/CryoByte33/steam-deck-utilities) [installer](https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/InstallCryoUtilities.desktop) (.desktop file)
 # Setup for Development
