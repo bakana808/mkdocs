@@ -1,4 +1,7 @@
 {
   "showUnsupportedFiles": true,
-  "vimMode": true
+  "vimMode": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "showInlineTitle": false
 }
