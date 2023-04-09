@@ -1,4 +1,4 @@
-```gdscript line_num=1
+``` gdscript linenums="1"
 extends CharacterBody3D
 
 #var velocity = Vector3.ZERO
