@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/linux/SteamOS.md",
+                "file": "docs/gamedev/godot/guides/Creating an FPS Controller.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/linux/SteamOS.md",
+                "file": "docs/gamedev/godot/guides/Creating an FPS Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/linux/SteamOS.md",
+                "file": "docs/gamedev/godot/guides/Creating an FPS Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/linux/SteamOS.md"
+                "file": "docs/gamedev/godot/guides/Creating an FPS Controller.md"
               }
             }
           }
@@ -146,17 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0995eb9e7373db9e",
+  "active": "537f377272855ee4",
   "lastOpenFiles": [
+    "docs/gamedev/godot/guides",
+    "docs/gamedev/godot",
+    "docs/gamedev/godot/guides/Creating an FPS Controller.md",
+    "docs/linux/SteamOS.md",
     "docs/index.md",
     "docs/linux/Useful Commands.md",
-    "docs/linux/SteamOS.md",
     "docs/linux/Setting up GRUB.md",
     "docs/linux/Dotfiles.md",
     "docs/linux/Common Issues.md",
     "docs/linux/Autostarting Programs.md",
     "docs/gamedev/Untitled 1.md",
-    "docs/gamedev/Untitled.md",
     "docs/linux/_attachments/Pasted image 20220730041624.png",
     "docs/linux/_attachments/Pasted image 20220730041534.png",
     "docs/linux/_attachments",
@@ -183,10 +185,8 @@
     "docs/Linux",
     "docs/Game Design/Untitled 1.md",
     "docs/Game Design",
-    "publish/docs/index.md",
     "mkdocs.yml",
     "LICENSE",
-    "docs",
-    "obsidian-mkdocs/mkdocs.yml"
+    "docs"
   ]
 }
