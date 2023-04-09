@@ -1,3 +1,8 @@
+# Creating an FPS Player Controller
+
+This is a guide on how to create an FPS player controller from scratch in Godot 4.0. This controller will feature We will be implementing Quake-style movement physics in this controller.
+
+
 ``` gdscript linenums="1"
 extends CharacterBody3D
 
