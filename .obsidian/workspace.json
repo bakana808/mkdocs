@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -161,6 +161,7 @@
   },
   "active": "5012dcfba4d01ecb",
   "lastOpenFiles": [
+    "Pasted image 20230410031457.png",
     "docs/index.md",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
     "Note 1.md",
@@ -196,7 +197,6 @@
     "docs/Linux/_attachments",
     "docs/Linux/Storage Drives.md",
     "docs/Linux/SteamOS.md",
-    "docs/Linux/Gaming.md",
     "docs/Linux",
     "docs/Game Design",
     "mkdocs.yml",
