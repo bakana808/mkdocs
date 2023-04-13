@@ -68,8 +68,6 @@ Expressions can be defined as relative or absolute by adding `rel;` or `abs;` to
 If the parent to the pattern with this action is a Pattern, relative parameters are relative to the last bullet fired by the parent.
 If the parent to the pattern with this action is a Bullet, relative parameters are relative to that parent bullet.
 
-#### Example: Fire a bullet 
-
 ## Actions
 
 ###  Wait
@@ -123,3 +121,4 @@ Fire a bullet.
 | `angle` | `0` | The angle or direction of the bullet (in degrees). `0` degrees is down.
 | `pattern` | `none` | A pattern to run as a subpattern of this bullet. Either a Pattern object or identifier of a previously defined Pattern.
 
+Speed
