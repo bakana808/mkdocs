@@ -149,7 +149,7 @@ Sets the speed of a parent bullet. If the parent is a Pattern, this action does 
 // sets the speed over time
 {"speed": {"to": < float | expr >, "in": < float | expr >, "curve": < float | expr >}}
 
-// sets the speed instantly (equivalent to {"to": < float | expr >, "in": 0})
+// sets the speed instantly (equivalent to {"to": < float | expr >, "in": 0, "curve": 1.0})
 {"speed": < float | expr >}
 ```
 
@@ -158,7 +158,7 @@ Sets the speed of a parent bullet. If the parent is a Pattern, this action does 
 |---|---|---|
 | `to` | required  | The target speed to set to.
 | `in` | `0` | The amount of frames to interpolate the speed to the target speed. If 0, sets the speed immediately.
-| `curve` | `1.0` | The curve to use for the interpolation. A value of 1.0 is linear. Uses the ease() function in Godot, see [this image](https://raw.githubusercontent.com/godotengine/godot-docs/master/img/ease_cheatsheet.png) for a visual of different curves.
+| `curve` | `1.0` | The curve to use for the interpolation. A value of 1.0 is linear. Uses the `ease()` function in Godot, see [this image](https://raw.githubusercontent.com/godotengine/godot-docs/master/img/ease_cheatsheet.png) for a visual of different curves.
 
 ### Angle
 
