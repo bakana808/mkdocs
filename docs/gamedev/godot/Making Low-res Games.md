@@ -55,4 +55,10 @@ Create guides by clicking and holding the editor ruler and dragging out. Create 
 
 ## Example Use
 
-To show an example of what the world scene looks like upscaled, we will add the default icon as a sprite.
+To show an example of what the world scene looks like upscaled, we will add the default icon sprite, tiled using a TextureRect.
+
+![[Pasted image 20230412175142.png]]
+
+After saving `world.tscn`, this is what is shown in `display.tscn`.
+
+![[Pasted image 20230412175248.png]]
