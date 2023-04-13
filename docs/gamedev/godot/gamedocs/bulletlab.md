@@ -42,7 +42,7 @@ Node that all of the actions in the pattern will be performed per frame (includi
 
 ## Expressions
 
-Most numerical parameters for pattern actions can be replaced with a [Godot Expression](https://docs.godotengine.org/en/stable/tutorials/scripting/evaluating_expressions.html). This gives access to most math functions (such as `randf()`).
+Most numerical parameters for pattern actions can be replaced with a [Godot Expression](https://docs.godotengine.org/en/stable/tutorials/scripting/evaluating_expressions.html). This allows users to describe values as a math expression, as well as allowing access to most math functions in Godot (such as `randf()`).
 For some actions, additional variables are also given to use in the expression.
 
 ### Speed Variables
@@ -51,7 +51,7 @@ These variables are provided to actions with a  `speed` parameter, if using an e
 
 | Variable | Description |
 |---|---|
-| `LAST` | The speed of the last bullet this pattern has fired.
+| `LAST` | The speed of the last bullet this pattern has fired (starting from `0`).
 
 ### Angle Variables
 
@@ -60,7 +60,7 @@ These variables are provided to actions with an `angle` parameter, if using an e
 | Variable | Description |
 |---|---|
 | `SHIP` | The angle to the player's ship.
-| `LAST` | The angle of the last bullet this pattern as fired.
+| `LAST` | The angle of the last bullet this pattern as fired (starting from `0`).
 
 ### Relative vs. Absolute
 
@@ -105,7 +105,7 @@ Wait for a specified amount of frames.
 
 ### Fire
 
-Fires a bullet.
+Fires a bullet. This will also set the `LAST` variable in future Fire actions to allow for sequential patterns.
 
 ```json
 {"fire": {
@@ -132,6 +132,15 @@ Fires a bullet.
 	"do": [
 		{"wait": 30},
 		{"fire": {"speed": "abs; 5", "angle": "SHIP"}}
+	]
+}}}
+```
+#### Example: Fire 36 bullets in a circle
+```json
+{"fire": {"speed": 1, "pattern": {
+	"repeat": 35,
+	"do": [
+		{"fire": {"angle": "LAST + 10"}}
 	]
 }}}
 ```
