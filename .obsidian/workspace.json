@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md"
+                "file": "docs/gamedev/godot/Making Low-res Games.md"
               }
             }
           }
@@ -170,8 +170,8 @@
   },
   "active": "0995eb9e7373db9e",
   "lastOpenFiles": [
-    "docs/gamedev/godot/Making Low-res Games.md",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
+    "docs/gamedev/godot/Making Low-res Games.md",
     "docs/index.md",
     "docs/gamedev/godot/half-pixel.png",
     "Note 1.md",

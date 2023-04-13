@@ -1,8 +1,8 @@
-If you are using a bitmap font (image imported as font data), and the font characters are always off by half a pixel, use th
+If you are using an image imported as font data, and the font characters are always off by half a pixel (see below image), use the following shader:
 
 ![[half-pixel.png]]
 
-``` gdshader
+``` glsl
 shader_type canvas_item;
 
 uniform vec2 offset = vec2(0, -0.5);
