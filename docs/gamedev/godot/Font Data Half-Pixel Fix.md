@@ -1,4 +1,4 @@
-This shader is a fix for if you are using a bitmap font (image imported as font data), and the font characters are always off by half a pixel.
+If you are using a bitmap font (image imported as font data), and the font characters are always off by half a pixel, use th
 
 ![[half-pixel.png]]
 
