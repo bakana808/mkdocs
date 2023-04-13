@@ -122,6 +122,19 @@ Fires a bullet.
 | `angle` | `0` | The angle or direction of the bullet (in degrees). `0` degrees is down.
 | `pattern` | `none` | A pattern to run as a subpattern of this bullet. Either a Pattern object or identifier of a previously defined Pattern.
 
+#### Example: Fire a fast bullet at the player
+```json
+{"fire": {"speed": 5, "angle": "SHIP"}}
+```
+#### Example: Fire a slow bullet that fires fast bullets at the player
+```json
+{"fire": {"angle": "60", "pattern": {
+	"do": [
+		{"wait": 30},
+		{"fire": {"speed": "abs; 5", "angle": "SHIP"}}
+	]
+}}}
+```
 ### Speed
 
 Sets the speed of a parent bullet. If the parent is a Pattern, this action does nothing.
@@ -133,6 +146,13 @@ Sets the speed of a parent bullet. If the parent is a Pattern, this action does 
 // sets the speed instantly (equivalent to {"to": < float | expr >, "in": 0})
 {"speed": < float | expr >}
 ```
+
+#### Parameters
+| Key | Default Value | Description |
+|---|---|---|
+| `to` | required  | The target speed to set to.
+| `in` | `0` | The amount of frames to interpolate the speed to the target speed. If 0, sets the speed immediately.
+| `curve` | `1.0` | The curve to use for the interpolation. A value of 1.0 is linear. Uses the ease() function in Godot, see [this image](https://raw.githubusercontent.com/godotengine/godot-docs/master/img/ease_cheatsheet.png) for a visual of different curves.
 
 ### Angle
 
@@ -146,7 +166,10 @@ Sets the angle of a parent bullet. If the parent is a Pattern, this action does 
 {"angle": < float | expr >}
 ```
 
+#### Parameters
 | Key | Default Value | Description |
 |---|---|---|
-| `to` |   | The target angle to set to.
-| `in` | `0` | The amount of frames to interpolate the angle to the target angle. If 0, 
+| `to` | required  | The target angle to set to.
+| `in` | `0` | The amount of frames to interpolate the angle to the target angle. If 0, sets the angle immediately.
+| `curve` | `1.0` | The curve to use for the interpolation. A value of 1.0 is linear. Uses the ease() function in Godot, see [this image](https://raw.githubusercontent.com/godotengine/godot-docs/master/img/ease_cheatsheet.png) for a visual of different curves.
+
