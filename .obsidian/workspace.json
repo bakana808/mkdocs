@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
                 "mode": "preview",
                 "source": false
               }
@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gamedev/godot/half-pixel.png",
+                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gamedev/godot/half-pixel.png",
+                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gamedev/godot/half-pixel.png"
+                "file": "docs/gamedev/godot/Font Data Half-Pixel Fix.md"
               }
             }
           }
@@ -157,11 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "537f377272855ee4",
+  "active": "0995eb9e7373db9e",
   "lastOpenFiles": [
-    "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
-    "docs/gamedev/godot/half-pixel.png",
     "docs/index.md",
+    "docs/gamedev/godot/half-pixel.png",
+    "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
     "Note 1.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
     "docs/gamedev/godot/guides",
