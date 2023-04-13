@@ -128,8 +128,25 @@ Sets the speed of a parent bullet. If the parent is a Pattern, this action does 
 
 ```json
 // sets the speed over time
-{"speed": {"to": < float | expr >, "in": < float | expr >}}
+{"speed": {"to": < float | expr >, "in": < float | expr >, "curve": < float | expr >}}
 
 // sets the speed instantly (equivalent to {"to": < float | expr >, "in": 0})
 {"speed": < float | expr >}
 ```
+
+### Angle
+
+Sets the angle of a parent bullet. If the parent is a Pattern, this action does nothing.
+
+```json
+// sets the angle over time
+{"angle": {"to": < float | expr >, "in": < float | expr >, "curve": < float | expr >}}
+
+// sets the angle instantly (equivalent to {"to": < float | expr >, "in": 0, "curve": 1.0})
+{"angle": < float | expr >}
+```
+
+| Key | Default Value | Description |
+|---|---|---|
+| `to` |   | The target angle to set to.
+| `in` | `0` | The amount of frames to interpolate the angle to the target angle. If 0, 
