@@ -27,9 +27,10 @@ Patterns describe the actions of either a top-level entity (such as an enemy shi
 
 Node that all of the actions in the pattern will be performed per frame (including repeats) unless there is a `Wait` action. Keep this in mind when creating a pattern with large amounts of actions.
 
-#### Example: A pattern firing 3 bullets downwards in a spread
+#### Examples
 
 ```json
+// Example: Fires 3 bullets downward in a spread pattern
 {"pattern": {
 	"id": "3-round-spread",
 	"do": [
@@ -79,18 +80,15 @@ Wait for a specified amount of frames.
 {"wait": < int | expr >}
 ```
 
-#### Example: Wait 5 frames
+#### Examples
 ```json
+// Waits for 5 frames
 {"wait": 5}
-```
 
-#### Example: Wait randomly between 1 and 5 frames
-```json
+// Waits for a random amount between 1 and 5 frames
 {"wait": "randf() * 4 + 1"}
-```
 
-#### Example: A pattern firing a 3-bullet burst at the player
-```json
+// A pattern firing a 3-round burst of bullets at the player
 {"pattern": {
 	"id": "3-round-burst",
 	"do": [
@@ -122,21 +120,20 @@ Fires a bullet. This will also set the `LAST` variable in future Fire actions to
 | `angle` | `0` | The angle or direction of the bullet (in degrees). `0` degrees is down.
 | `pattern` | `none` | A pattern to run as a subpattern of this bullet. Either a Pattern object or identifier of a previously defined Pattern.
 
-#### Example: Fire a fast bullet at the player
+#### Examples
 ```json
+// Fires a fast bullet at the player
 {"fire": {"speed": 5, "angle": "SHIP"}}
-```
-#### Example: Fire a slow bullet that fires fast bullets at the player
-```json
+
+// Fires a bullet that fires fast bullets at the player every 0.5 seconds
 {"fire": {"angle": "60", "pattern": {
 	"do": [
 		{"wait": 30},
 		{"fire": {"speed": "abs; 5", "angle": "SHIP"}}
 	]
 }}}
-```
-#### Example: Fire 36 bullets in a circle
-```json
+
+// Fires 36 bullets in a circle pattern
 {"fire": {"speed": 1, "pattern": {
 	"repeat": 35,
 	"do": [
@@ -182,3 +179,37 @@ Sets the angle of a parent bullet. If the parent is a Pattern, this action does 
 | `in` | `0` | The amount of frames to interpolate the angle to the target angle. If 0, sets the angle immediately.
 | `curve` | `1.0` | The curve to use for the interpolation. A value of 1.0 is linear. Uses the ease() function in Godot, see [this image](https://raw.githubusercontent.com/godotengine/godot-docs/master/img/ease_cheatsheet.png) for a visual of different curves.
 
+### Subpattern
+
+
+Adds another pattern to be run alongside the pattern this action is in. Note that the pattern will not wait until the subpattern is finished. All subpatterns run in parallel to the parent pattern.
+
+```json
+{"pattern": < Pattern | string >}
+```
+
+Uses the same syntax as a normal pattern if an object is provided (see: [[#Patterns]]).
+If a string is provided, uses a previously defined Pattern by identifier.
+
+#### Examples
+
+```json
+// Fire a series of circle patterns
+[
+	{"pattern": {
+		"id": "circle",
+		"repeat": 36,
+		"do": [
+			{"fire": {"angle": "LAST + 10"}}
+		]
+	}},
+
+	{"pattern": {
+		"repeat": 10,
+		"do": [
+			{"pattern": "circle"},
+			{"wait": 30}
+		]
+	}}
+]
+```
