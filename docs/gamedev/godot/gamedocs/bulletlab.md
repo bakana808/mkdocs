@@ -1,5 +1,4 @@
-BULLETLAB is a bullet-hell game and tool for designing shmup patterns.
-Inspired by [BulletML](http://www.asahi-net.or.jp/~cs8k-cyu/bulletml/index_e.html).
+BULLETLAB is a bullet-hell game and tool for designing shmup patterns. Inspired by [BulletML](http://www.asahi-net.or.jp/~cs8k-cyu/bulletml/index_e.html).
 
 # Reference
 
@@ -43,12 +42,13 @@ Node that all of the actions in the pattern will be performed per frame (includi
 
 ## Expressions
 
-Most numerical parameters for pattern actions can be substituted with a [Godot Expression](https://docs.godotengine.org/en/stable/tutorials/scripting/evaluating_expressions.html). This gives access to most math functions (such as `randf()`).
+Most numerical parameters for pattern actions can be replaced with a [Godot Expression](https://docs.godotengine.org/en/stable/tutorials/scripting/evaluating_expressions.html). This gives access to most math functions (such as `randf()`).
 For some actions, additional variables are also given to use in the expression.
 
 ### Speed Variables
 
 These variables are provided to actions with a  `speed` parameter, if using an expression.
+
 | Variable | Description |
 |---|---|
 | `LAST` | The speed of the last bullet this pattern has fired.
@@ -56,6 +56,7 @@ These variables are provided to actions with a  `speed` parameter, if using an e
 ### Angle Variables
 
 These variables are provided to actions with an `angle` parameter, if using an expression.
+
 | Variable | Description |
 |---|---|
 | `SHIP` | The angle to the player's ship.
@@ -104,7 +105,7 @@ Wait for a specified amount of frames.
 
 ### Fire
 
-Fire a bullet.
+Fires a bullet.
 
 ```json
 {"fire": {
@@ -121,4 +122,14 @@ Fire a bullet.
 | `angle` | `0` | The angle or direction of the bullet (in degrees). `0` degrees is down.
 | `pattern` | `none` | A pattern to run as a subpattern of this bullet. Either a Pattern object or identifier of a previously defined Pattern.
 
-Speed
+### Speed
+
+Sets the speed of a parent bullet. If the parent is a Pattern, this action does nothing.
+
+```json
+// sets the speed over time
+{"speed": {"to": < float | expr >, "in": < float | expr >}}
+
+// sets the speed instantly (equivalent to {"to": < float | expr >, "in": 0})
+{"speed": < float | expr >}
+```
