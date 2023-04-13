@@ -64,7 +64,7 @@ These variables are provided to actions with an `angle` parameter, if using an e
 
 ### Relative vs. Absolute
 
-Expressions can be defined as relative or absolute by adding `rel;` or `abs;` to the beginning of the expression. All speed and angle parameters are relative unless specified otherwise.
+Expressions can be defined as relative or absolute by adding `rel;` or `abs;` to the beginning of the expression. All speed and angle parameters are relative by default if not specified.
 
 If the parent to the pattern with this action is a Pattern, relative parameters are relative to the last bullet fired by the parent.
 If the parent to the pattern with this action is a Bullet, relative parameters are relative to that parent bullet.
