@@ -4,5 +4,7 @@
   "strictLineBreaks": true,
   "showLineNumber": true,
   "showInlineTitle": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./",
+  "readableLineLength": false
 }
