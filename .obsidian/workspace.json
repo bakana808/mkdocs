@@ -72,7 +72,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -217,10 +217,10 @@
   },
   "active": "5adc80c031f66866",
   "lastOpenFiles": [
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
-    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
-    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
     "docs/gamedev/godot/Making Low-res Games.md",
+    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
+    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
+    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
     "docs/gamedev/godot/_attachments/Pasted image 20230412171418.png",
     "docs/gamedev/godot/_attachments",
     "docs/_attachments",
