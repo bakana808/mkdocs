@@ -6,5 +6,6 @@
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newFileLocation": "folder"
 }
