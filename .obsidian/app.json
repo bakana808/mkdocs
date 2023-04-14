@@ -5,7 +5,8 @@
   "showLineNumber": true,
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "./_attachments",
   "readableLineLength": false,
-  "newFileLocation": "folder"
+  "newFileLocation": "current",
+  "newFileFolderPath": "docs/_attachments"
 }

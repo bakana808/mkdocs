@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md"
+                "file": "docs/gamedev/godot/Making Low-res Games.md"
               }
             }
           }
@@ -203,8 +203,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "537f377272855ee4",
+  "active": "af7be159025b1dce",
   "lastOpenFiles": [
+    "docs/gamedev/godot/_attachments/Pasted image 20230412171418.png",
+    "docs/gamedev/godot/_attachments",
+    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/_attachments",
     "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
     "docs/gamedev/godot/snippets/half-pixel.png",
@@ -213,16 +216,15 @@
     "docs/gamedev/godot/Making Low-res Games.md",
     "Untitled",
     "docs/gamedev/godot/gamedocs",
-    "docs/gamedev/godot/Pasted image 20230412175248.png",
-    "docs/gamedev/godot/Pasted image 20230412175142.png",
-    "docs/gamedev/godot/Pasted image 20230412174818.png",
-    "docs/gamedev/godot/Pasted image 20230412173826.png",
-    "docs/gamedev/godot/Pasted image 20230412173706.png",
-    "docs/gamedev/godot/Pasted image 20230412173123.png",
-    "docs/gamedev/godot/Pasted image 20230412172842.png",
-    "docs/gamedev/godot/Pasted image 20230412172322.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412175248.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412175142.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412174818.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412173826.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412173706.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412173123.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412172842.png",
+    "docs/gamedev/godot/_attachments/Pasted image 20230412172322.png",
     "Pasted image 20230412171414.png",
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/index.md",
     "Note 1.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
@@ -248,8 +250,6 @@
     "docs/Linux/Common Issues.md",
     "docs/Linux/Setting up GRUB.md",
     "docs/Linux/Packages.md",
-    "docs/Linux/Autostarting Programs.md",
-    "docs/Linux/_attachments",
-    "docs/Linux"
+    "docs/Linux/Autostarting Programs.md"
   ]
 }
