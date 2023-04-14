@@ -24,5 +24,5 @@ func _physics_process(_delta):
 	# free batches of nodes at a time here
     for node in nodes_queued_for_deletion.slice(0, MAX_NODE_DELETIONS):
         if is_instance_valid(node): bullet.queue_free()
-    nodes_queued_for_deletion = nodes_queued_for_deletion.slice(MAX_BULLET_DELETIONS)
+    nodes_queued_for_deletion = nodes_queued_for_deletion.slice(MAX_NODE_DELETIONS)
 ```
