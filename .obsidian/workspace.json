@@ -59,7 +59,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gamedev/godot/Making Low-res Games.md",
+                "file": "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5adc80c031f66866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gamedev/godot/Making Low-res Games.md",
+                "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gamedev/godot/Making Low-res Games.md",
+                "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gamedev/godot/Making Low-res Games.md"
+                "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md"
               }
             }
           }
@@ -203,17 +215,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af7be159025b1dce",
+  "active": "5adc80c031f66866",
   "lastOpenFiles": [
+    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
+    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
+    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
+    "docs/gamedev/godot/Making Low-res Games.md",
     "docs/gamedev/godot/_attachments/Pasted image 20230412171418.png",
     "docs/gamedev/godot/_attachments",
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/_attachments",
-    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
     "docs/gamedev/godot/snippets/half-pixel.png",
     "docs/gamedev/godot/snippets",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
-    "docs/gamedev/godot/Making Low-res Games.md",
     "Untitled",
     "docs/gamedev/godot/gamedocs",
     "docs/gamedev/godot/_attachments/Pasted image 20230412175248.png",
@@ -224,7 +237,6 @@
     "docs/gamedev/godot/_attachments/Pasted image 20230412173123.png",
     "docs/gamedev/godot/_attachments/Pasted image 20230412172842.png",
     "docs/gamedev/godot/_attachments/Pasted image 20230412172322.png",
-    "Pasted image 20230412171414.png",
     "docs/index.md",
     "Note 1.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
