@@ -159,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "537f377272855ee4",
+  "active": "f414f8a3a54e7a2e",
   "lastOpenFiles": [
-    "docs/gamedev/godot/gamedocs/bulletlab.md",
+    "docs/gamedev/godot/snippets/Untitled.md",
     "docs/gamedev/godot/guides/Buffered Input System.md",
+    "docs/gamedev/godot/gamedocs/bulletlab.md",
     "docs/index.md",
     "conflict-files-obsidian-git.md",
     "docs/gamedev/godot/snippets/half-pixel.png",
@@ -204,7 +205,6 @@
     "docs/Linux/Useful Commands.md",
     "docs/Linux/Ricing.md",
     "docs/Linux/Dotfiles.md",
-    "docs/Linux/Common Issues.md",
     "docs/Linux/_attachments",
     "docs/Linux"
   ]
