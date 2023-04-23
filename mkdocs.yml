@@ -1,5 +1,11 @@
 site_name: octopod
 
+extra:
+    social:
+        - icon: fontawesome/brands/mastodon
+          link: mastodon.gamedev.place/@octopod
+        - icon: fontawesome/brands/github
+          link: github.com/bakana808
 theme:
     name: material
     font:
