@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/gamedev/godot/gamedocs/bulletlab.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/gamedev/godot/gamedocs/bulletlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/gamedev/godot/gamedocs/bulletlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/gamedev/godot/gamedocs/bulletlab.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "0995eb9e7373db9e",
   "lastOpenFiles": [
+    "docs/index.md",
     "conflict-files-obsidian-git.md",
     "docs/gamedev/godot/snippets/half-pixel.png",
     "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
@@ -168,7 +169,6 @@
     "docs/gamedev/godot/Making Low-res Games.md",
     "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
-    "docs/index.md",
     "Note 1.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
     "docs/gamedev/godot/guides",
