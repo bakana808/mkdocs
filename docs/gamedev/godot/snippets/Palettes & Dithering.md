@@ -1,6 +1,11 @@
 ## Color Palette Mapping
 ### Single Color
 ```glsl
+struct ColorResult {
+    vec3 color;
+    vec2 uv;
+};
+
 ColorResult find_closest_color(vec3 src) {
 
     vec3 color = vec3(-20.0); 
@@ -23,6 +28,15 @@ ColorResult find_closest_color(vec3 src) {
 ```
 ### 2 Colors
 ```glsl
+struct ColorPairResult {
+    vec3 color_a;
+    vec2 uv_1;
+    vec3 color_b;
+    vec2 uv_2;
+    float dist_1;
+    float dist_12;
+};
+
 /*
 * Test a color against a color palette, and return a result struct containing:
 * - The UV of the closest palette color found
