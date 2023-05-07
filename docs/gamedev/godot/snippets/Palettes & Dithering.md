@@ -1,3 +1,87 @@
+## Color Palette Mapping
+### Single Color
+```glsl
+ColorResult find_closest_color(vec3 src) {
+
+    vec3 color = vec3(-20.0); 
+    vec2 uv = vec2(-1.0); // UV of the closest color
+    
+    for(int u = 0; u < palette_size; u += 1) {
+        if( bitfieldExtract(palette_mask, int(u), 1) == 0u ) { continue; }
+
+        vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
+        vec3 pal_color = texture(PALETTE_KEY, pal_uv).rgb;
+        
+        if( _distance(pal_color.rgb, src.rgb) < _distance(color.rgb, src.rgb) ) {
+            color = pal_color;
+            uv = pal_uv;
+        }
+    }
+
+    return ColorResult(color, uv);
+}
+```
+### 2 Colors
+```glsl
+/*
+* Test a color against a color palette, and return a result struct containing:
+* - The UV of the closest palette color found
+* - The UV of the 2nd closest palette color found
+* - The color distance between the closest palette color and the tested color
+* - The color distance between the closest palette color and the 2nd closest palette color
+*/
+ColorPairResult find_closest_colors(vec3 color) {
+    
+    //bool[8] mask = {pal_1, pal_2, pal_3, pal_4, pal_5, pal_6, pal_7, pal_8};
+    
+    float max_dist_1 = 10000.0;
+    float max_dist_2 = 10000.0;
+
+    vec2 uv_1 = vec2(-1.0); // UV of the closest color
+    vec2 uv_2 = vec2(-1.0); // UV of the 2nd closest color
+    
+    vec3 color_a = vec3(-20, 0, 0);
+    vec3 color_b = vec3(-20, 0, 0);
+    
+    for(float u = 0.0; u < float(palette_size); u += 1.0) {
+        if( bitfieldExtract(palette_mask, int(u), 1) == 0u ) { continue; }
+        //if( !mask[int(u)] ) { continue; }
+
+        vec2 pal_uv = vec2(u / float(palette_size), 0.0);
+        vec3 pal_color = texture(PALETTE_KEY, pal_uv).rgb;
+        float dist = _distance(pal_color, color);
+        float closest_dist = _distance(color_a, color);
+        
+        if( dist < closest_dist ) {
+
+            max_dist_2 = max_dist_1;
+            uv_2 = uv_1;
+            color_b = color_a;
+
+            max_dist_1 = closest_dist;
+            uv_1 = pal_uv;
+            color_a = pal_color;
+        }
+        else if ( dist < _distance(color_b.rgb, color.rgb) ) {
+            
+            max_dist_2 = dist;
+            uv_2 = pal_uv;
+            color_b = pal_color;
+        }
+    }
+
+    ColorPairResult results;
+    results.color_a = color_a; // the closest color
+    results.color_b = color_b; // the second closest color
+    results.uv_1 = uv_1; // UV of the closest color
+    results.uv_2 = uv_2; // UV of the second closest color
+    // distance between the tested color and the closest color
+    results.dist_1 = max_dist_1; 
+    // distance between the closest color and second closest color
+    results.dist_12 = _distance(color_a.rgb, color_b.rgb);
+    return results;
+}
+```
 ## Color Conversions
 ### RGB to CIELAB
 ```glsl
