@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e62ccf2b7438909",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -75,6 +85,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "0d989077710e1413",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -159,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f414f8a3a54e7a2e",
+  "active": "0e62ccf2b7438909",
   "lastOpenFiles": [
     "docs/gamedev/godot/guides/Buffered Input System.md",
     "docs/gamedev/godot/snippets/Palettes & Dithering.md",
