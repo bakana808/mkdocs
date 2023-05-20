@@ -20,8 +20,8 @@ $ sudo pacman-key --init
 $ sudo pacman-key --populate archlinux
 
 
-# install base-devel (provides required development tools)
-$ sudo pacman -S base-devel
+# install base-devel (overwrite required if files carried over from previous OS)
+$ sudo pacman -S --overwrite \* base-devel
 
 # reinstall packages which may have missing files
 $ sudo pacman -S glibc linux-api-headers libarchive
@@ -30,6 +30,10 @@ $ sudo pacman -S glibc linux-api-headers libarchive
 $ cd /tmp && git clone 'https://aur.archlinux.org/yay.git' && cd /tmp/yay && makepkg -si && cd ~ && rm -rf /tmp/yay/
 
 
-# install additional packages for python
+# setup vscode?
+$ yay -S visual-studio-code-bin
+
+
+# setup python?
 $ sudo pacman -S python python-pip
 ```
