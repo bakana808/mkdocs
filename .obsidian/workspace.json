@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
-                "mode": "preview",
+                "file": "docs/linux/SteamOS.md",
+                "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0e62ccf2b7438909",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+                "file": "docs/linux/SteamOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+                "file": "docs/linux/SteamOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md"
+                "file": "docs/linux/SteamOS.md"
               }
             }
           }
@@ -177,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e62ccf2b7438909",
+  "active": "f414f8a3a54e7a2e",
   "lastOpenFiles": [
-    "docs/gamedev/godot/guides/Buffered Input System.md",
     "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+    "docs/gamedev/godot/guides/Buffered Input System.md",
     "docs/gamedev/godot/snippets/Untitled.md",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
     "docs/index.md",
