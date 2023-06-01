@@ -1,8 +1,8 @@
 ## Color Palette Mapping Shader
 
-The function `find_closest_color(src)` will return the closest color in the palette by color distance function `color_distance(a, b)` (different color distance function implementations discussed below).
+This shader provides the function `find_closest_color(src)`.  This function will return the closest color in the palette by color distance function `color_distance(a, b)` (different color distance function implementations discussed below).
 ``` glsl linenums="1"
-uniform sampler2D PALETTE_KEY;  // an image of 8 colors laid out horizontally
+uniform sampler2D palette_texture;  // an image of 8 colors laid out horizontally
 uniform int palette_size = 8;  // the number of colors in the palette
 
 vec3 find_closest_color(vec3 src) {
@@ -12,7 +12,7 @@ vec3 find_closest_color(vec3 src) {
     for(int u = 0; u < palette_size; u += 1) {
 
         vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
-        vec3 pal_color = texture(PALETTE_KEY, pal_uv).rgb;
+        vec3 pal_color = texture(palette_texture, pal_uv).rgb;
         
         if( color_distance(pal_color.rgb, src.rgb) < color_distance(color.rgb, src.rgb) ) {
             color = pal_color;
@@ -28,8 +28,43 @@ func fragment() {
 }
 ```
 
+#### Color Masking
+The following additions to the shader allow for defining color masks. Color masks are used to limit the output color to a subset of the given palette. This is represented by a bitfield, which is stored into the uniform int `palette_mask`. For example, if we have an 8-color palette and the `palette_mask` is `15`, or `00001111` in binary, the output color is limited to only the first 4 colors of the palette.
+Note that the binary number has as many digits as the number of colors in the palette, and is in reverse order of the color order of the palette texture (the right-most digit corresponds to the left-most color, etc.).
+
+Additional note: It is possible to input binary numbers in the Godot inspector by prefixing the number with `0b`. For example, setting `palette_mask` to `0b11111111` under the shader parameters will output `256`.
+``` glsl linenums="1" hl_lines="3 10"
+uniform sampler2D palette_texture;  // an image of 8 colors laid out horizontally
+uniform int palette_size = 8;  // the number of colors in the palette
+uniform int palette_mask = 256;  // 0b11111111
+
+vec3 find_closest_color(vec3 src) {
+
+    vec3 color = vec3(-20.0); 
+    
+    for(int u = 0; u < palette_size; u += 1) {
+        if( bitfieldExtract(palette_mask, int(u), 1) == 0u ) { continue; }
+
+        vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
+        vec3 pal_color = texture(palette_texture, pal_uv).rgb;
+        
+        if( color_distance(pal_color.rgb, src.rgb) < color_distance(color.rgb, src.rgb) ) {
+            color = pal_color;
+        }
+    }
+
+	return color;
+}
+
+// example usage
+func fragment() {
+	COLOR.rgb = find_closest_color(COLOR.rgb);
+}
+```
+
+### Color Remapping
 ``` glsl
-uniform sampler2D PALETTE_KEY;  // an image of 8 colors laid out horizontally
+uniform sampler2D palette_texture;  // an image of 8 colors laid out horizontally
 uniform int palette_size = 8;  // the number of colors in the palette
 uniform int palette_mask = 256;  // 0b11111111
 
@@ -47,7 +82,7 @@ ColorResult find_closest_color(vec3 src) {
         if( bitfieldExtract(palette_mask, int(u), 1) == 0u ) { continue; }
 
         vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
-        vec3 pal_color = texture(PALETTE_KEY, pal_uv).rgb;
+        vec3 pal_color = texture(palette_texture, pal_uv).rgb;
         
         if( _distance(pal_color.rgb, src.rgb) < _distance(color.rgb, src.rgb) ) {
             color = pal_color;
