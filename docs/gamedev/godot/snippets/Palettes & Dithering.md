@@ -9,7 +9,7 @@ vec3 find_closest_color(vec3 src) {
 
     vec3 color = vec3(-20.0); 
     
-    for(int u = 0; u < palette_size; u += 1) {
+    for( int u = 0; u < palette_size; u += 1 ) {
 
         vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
         vec3 pal_color = texture(palette_texture, pal_uv).rgb;
@@ -42,7 +42,7 @@ vec3 find_closest_color(vec3 src) {
 
     vec3 color = vec3(-20.0); 
     
-    for(int u = 0; u < palette_size; u += 1) {
+    for( int u = 0; u < palette_size; u += 1 ) {
         if( bitfieldExtract(palette_mask, int(u), 1) == 0u ) { continue; }
 
         vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
@@ -63,17 +63,15 @@ func fragment() {
 ```
 
 ### Color Remapping
-``` glsl
-uniform sampler2D palette_texture;  // an image of 8 colors laid out horizontally
+``` glsl linenums="1" hl_lines="1 2 3 4 11 17 21 25 26 27"
+uniform sampler2D palette_key;  // an image of 8 colors laid out horizontally
+uniform sampler2D palette_a;
+uniform sampler2D palette_b;
+uniform float palette_mix = 0.0;
 uniform int palette_size = 8;  // the number of colors in the palette
 uniform int palette_mask = 256;  // 0b11111111
 
-struct ColorResult {
-    vec3 color;
-    vec2 uv;
-};
-
-ColorResult find_closest_color(vec3 src) {
+vec3 find_closest_color(vec3 src) {
 
     vec3 color = vec3(-20.0); 
     vec2 uv = vec2(-1.0); // UV of the closest color
@@ -82,7 +80,7 @@ ColorResult find_closest_color(vec3 src) {
         if( bitfieldExtract(palette_mask, int(u), 1) == 0u ) { continue; }
 
         vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
-        vec3 pal_color = texture(palette_texture, pal_uv).rgb;
+        vec3 pal_color = texture(palette_key, pal_uv).rgb;
         
         if( _distance(pal_color.rgb, src.rgb) < _distance(color.rgb, src.rgb) ) {
             color = pal_color;
@@ -90,12 +88,14 @@ ColorResult find_closest_color(vec3 src) {
         }
     }
 
-    return ColorResult(color, uv);
+	vec3 color_a = texture(palette_a, uv).rgb;
+	vec3 color_b = texture(palette_b, uv).rgb;
+	return mix(color_a, color_b, palette_mix);
 }
 
 // example usage
 func fragment() {
-	COLOR.rgb = find_closest_color(COLOR.rgb).color;
+	COLOR.rgb = find_closest_color(COLOR.rgb);
 }
 ```
 ### 2 Colors
