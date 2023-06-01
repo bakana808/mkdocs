@@ -69,7 +69,7 @@ func fragment() {
 ```
 
 ### Palette Blending
-The following additions to the shader allow for blending between two palettes. One palette is used as the "palette key" which is used in determining the initial palette color. Then, the UV of the palette color is used to retrieve colors from `palette_a` and `palette_b`. The final output color is then determined
+The following additions to the shader allow for blending between two palettes. One palette is used as the "palette key" which is used in determining the initial palette color. Then, the UV of the palette color is used to retrieve colors from `palette_a` and `palette_b`. The final output color is then determined by a blend of the two colors with `palette_mix`, `0.0` corresponding to the color from `palette_a`, and `1.0` corresponding to the color from `palette_b`.
 ``` glsl linenums="1" hl_lines="1 2 3 4 11 17 21 25 26 27"
 uniform sampler2D palette_key;  // an image of 8 colors laid out horizontally
 uniform sampler2D palette_a;
