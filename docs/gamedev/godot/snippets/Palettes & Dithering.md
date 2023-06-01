@@ -1,21 +1,24 @@
 ## Color Palette Mapping Shader
 
 This shader provides the function `find_closest_color(src)`.  This function will return the closest color in the palette by color distance function `color_distance(a, b)` (different color distance function implementations discussed below).
+
+The process
 ``` glsl linenums="1"
 uniform sampler2D palette_texture;  // an image of 8 colors laid out horizontally
 uniform int palette_size = 8;  // the number of colors in the palette
 
-vec3 find_closest_color(vec3 src) {
+vec3 find_closest_color(vec3 color) {
 
-    vec3 color = vec3(-20.0); 
+    vec3 final_color = vec3(0); 
+	float final_distance = 100000;
     
     for( int u = 0; u < palette_size; u += 1 ) {
 
         vec2 pal_uv = vec2(float(u) / float(palette_size), 0.0);
         vec3 pal_color = texture(palette_texture, pal_uv).rgb;
         
-        if( color_distance(pal_color.rgb, src.rgb) < color_distance(color.rgb, src.rgb) ) {
-            color = pal_color;
+        if( color_distance(pal_color.rgb, color.rgb) < color_distance(final_color.rgb, color.rgb) ) {
+            final_color = pal_color;
         }
     }
 
