@@ -32,7 +32,10 @@ func fragment() {
 ```
 
 #### Color Masking
-The following additions to the shader allow for defining color masks. Color masks are used to limit the output color to a subset of the given palette. This is represented by a bitfield, which is stored into the uniform int `palette_mask`. For example, if we have an 8-color palette and the `palette_mask` is `15`, or `00001111` in binary, the output color is limited to only the first 4 colors of the palette.
+The following additions to the shader allow for defining color masks. Color masks are used to limit the output color to a subset of the given palette. This is represented by a bitfield, which is stored into the uniform int `palette_mask`.
+
+For example, if we have an 8-color palette and the `palette_mask` is `15`, or `00001111` in binary, the output color is limited to only the first 4 colors of the palette.
+
 Note that the binary number has as many digits as the number of colors in the palette, and is in reverse order of the color order of the palette texture (the right-most digit corresponds to the left-most color, etc.).
 
 Additional note: It is possible to input binary numbers in the Godot inspector by prefixing the number with `0b`. For example, setting `palette_mask` to `0b11111111` under the shader parameters will output `256`.
