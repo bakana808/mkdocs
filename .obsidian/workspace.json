@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/linux/SteamOS.md",
-                "mode": "preview",
+                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+                "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "2a64a40a0e390ac0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.3"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/linux/SteamOS.md",
+                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/linux/SteamOS.md",
+                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/linux/SteamOS.md"
+                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md"
               }
             }
           }
@@ -177,17 +167,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a64a40a0e390ac0",
+  "active": "f414f8a3a54e7a2e",
   "lastOpenFiles": [
+    "docs/gamedev/godot/snippets/half-pixel.png",
+    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
+    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
+    "docs/gamedev/godot/guides/Creating an FPS Controller.md",
+    "docs/linux/SteamOS.md",
     "docs/gamedev/godot/guides/Buffered Input System.md",
     "docs/gamedev/godot/snippets/Untitled.md",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
     "docs/index.md",
     "conflict-files-obsidian-git.md",
-    "docs/gamedev/godot/snippets/half-pixel.png",
-    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/gamedev/godot/snippets",
     "docs/gamedev/godot/gamedocs",
     "docs/gamedev/godot/_attachments/Pasted image 20230412175248.png",
@@ -201,13 +194,10 @@
     "docs/gamedev/godot/_attachments/Pasted image 20230412171737.png",
     "docs/gamedev/godot/_attachments",
     "docs/gamedev/godot/Making Low-res Games.md",
-    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
     "Note 1.md",
-    "docs/gamedev/godot/guides/Creating an FPS Controller.md",
     "docs/gamedev/godot/guides",
     "docs/gamedev/godot",
-    "docs/linux/SteamOS.md",
     "docs/linux/Useful Commands.md",
     "docs/linux/Setting up GRUB.md",
     "docs/linux/Dotfiles.md",
@@ -222,7 +212,6 @@
     "docs/linux",
     "docs/gamedev",
     "docs/Linux/Useful Commands.md",
-    "docs/Linux/Ricing.md",
     "docs/Linux/_attachments",
     "docs/Linux"
   ]

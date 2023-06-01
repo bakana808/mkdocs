@@ -1,3 +1,6 @@
+##  `scan_folder(dirname, extensions)`
+Returns a list of files in a directory that has the given extension.
+
 ```gdscript
 static func scan_folder(dirname: String, extensions: PackedStringArray) -> PackedStringArray:
     var dir = DirAccess.open(dirname)
@@ -17,4 +20,7 @@ static func scan_folder(dirname: String, extensions: PackedStringArray) -> Packe
         dir.list_dir_end()
 
     return filepaths
+
+# Examples:
+scan_folder("levels/", ["tscn"])  # list all .tscn files in the "levels" folder
 ```
