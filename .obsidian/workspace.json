@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+                "file": "docs/gamedev/godot/Making Low-res Games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gamedev/godot/snippets/Palettes & Dithering.md"
+                "file": "docs/gamedev/godot/Making Low-res Games.md"
               }
             }
           }
@@ -169,10 +169,11 @@
   },
   "active": "f414f8a3a54e7a2e",
   "lastOpenFiles": [
-    "docs/gamedev/godot/snippets/half-pixel.png",
-    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
-    "docs/gamedev/godot/snippets/Palettes & Dithering.md",
+    "docs/gamedev/godot/Palettes & Dithering.md",
+    "docs/gamedev/godot/Making Low-res Games.md",
+    "docs/gamedev/godot/half-pixel.png",
+    "docs/gamedev/godot/Get List of Files in a Folder.md",
+    "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
     "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
     "docs/linux/SteamOS.md",
@@ -193,7 +194,6 @@
     "docs/gamedev/godot/_attachments/Pasted image 20230412172322.png",
     "docs/gamedev/godot/_attachments/Pasted image 20230412171737.png",
     "docs/gamedev/godot/_attachments",
-    "docs/gamedev/godot/Making Low-res Games.md",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
     "Note 1.md",
     "docs/gamedev/godot/guides",

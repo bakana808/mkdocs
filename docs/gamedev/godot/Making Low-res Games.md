@@ -1,7 +1,10 @@
-## Method 1: Rendering at a Low Resolution and Upscaling
+# Pixelization
 
-In this method, we display a low-resolution SubViewport and upscale it.
-In this example we will be rendering the game at 640x360 and displaying it at 1920x1080.
+## Method 1: Rendering at a Low Resolution then Upscaling
+
+In this method, we display a low-resolution SubViewport and upscale it. This is a slightly more complicated way of achieving a "pixelization" effect, but offers a performance advantage over a pixelization post-processing effect, as we will be actually rendering the game at the lower resolution.
+
+In this example we will be rendering the game at 640x360 and displaying it at 1920x1080 (3x pixelization).
 This resolution was chosen since 640x360 cleanly translates to 3x3 pixels on a 1080p screen, and 2x2 pixels on a 720p screen (both common resolutions). 
 
 Render Resolution = (640, 360)
