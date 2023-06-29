@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "522545c195e7f4b6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f414f8a3a54e7a2e",
+  "active": "522545c195e7f4b6",
   "lastOpenFiles": [
     "docs/gamedev/godot/Palettes & Dithering.md",
     "docs/gamedev/godot/Pixelization & Low-res Rendering.md",
