@@ -38,6 +38,7 @@ EP133 koii from @curi [400-499](https://drive.google.com/file/d/1NN_i70eShlClcsN
 
 [Metal Guitar](https://cdn.discordapp.com/attachments/754405144325521530/1206487338566549536/FREEWAREFYIGTR_80.wav?ex=65eea4e4&is=65dc2fe4&hm=03e435c7bc8118cba3572e745f22251fe335783dda396fce6d02c66970126599&) (80 slices) by @cyclpsrock
 [Metal/Lofi/Ambient Guitar](https://cdn.discordapp.com/attachments/754405144325521530/1040612642114510960/1wildrogue_guitar.zip?ex=65eb0c8b&is=65d8978b&hm=c8faef75634c72db29ab5dd561a0adfe4e88bd2b5d9dc2b9875494434f39f080&) by @1wildrogue
+[Metal Guitar](https://www.dropbox.com/s/g8kyql20a8v5yd7/M8%20Metal.zip?dl=0) by @laserdogrob
 [Kalimba](https://cdn.discordapp.com/attachments/754405144325521530/964356931663827004/Kalimba-Cmaj-SLICE_17.wav?ex=65ea7ce1&is=65d807e1&hm=e3473da153c5bf2ccd9323ad75a6375cc8d100c59997b1034307e31a3886579c&) by @nicovr
 [Dark Electric Piano](https://cdn.discordapp.com/attachments/754405144325521530/936601300353830982/dark_epiano_soft84m.wav?ex=65eb06ef&is=65d891ef&hm=9b4541d5ed647d16c6ff85681a794925667777c818a98be12de9c4621a1964bb&) by @impbox
 [Rhodes](https://cdn.discordapp.com/attachments/754405144325521530/901252785398501386/rhodes53slices.wav.7z?ex=65eba110&is=65d92c10&hm=a719a7594ed2cf4387ded6f3f05199334449a6ffb8be7063f834567c90759746&) (53 slices) by @defensemechanism
@@ -54,6 +55,7 @@ EP133 koii from @curi [400-499](https://drive.google.com/file/d/1NN_i70eShlClcsN
 ### Sample Packs
 
 [Apticx PD Drumkit](https://cdn.discordapp.com/attachments/754405144325521530/1049678318334652467/apt_pd_drumkit.zip?ex=65e71d9d&is=65d4a89d&hm=cf4f3ee38f39705a388a2a32c8cf78d76c3f30f8643ab880156868cded702f1d&) ([link](https://apticx.gumroad.com/l/apt_pd_drumkit)) by @apticx
+[RSKT Sample Pack (gumroad)](https://rskt.gumroad.com/l/rsktsamplepack) by @rskt
 
 
 ### Other Sample Packs
