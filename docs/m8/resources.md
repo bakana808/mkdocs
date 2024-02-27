@@ -6,6 +6,8 @@
 [PO137 rick & morty](https://cdn.discordapp.com/attachments/754405144325521530/1026317657613537280/PO137_SAMPLE_KIT.wav?ex=65ee6a4d&is=65dbf54d&hm=01f5c5ba2f28e1ad622f9c45aa346eb733f720a502a55c2e6567bfd4de276bd7&) from @kaibuster
 [PO20 arcade](https://cdn.discordapp.com/attachments/754405144325521530/1019273604086648914/PO20.wav?ex=65e73f04&is=65d4ca04&hm=34c64dc2097cc7b4d5592e2783128fab75b9650ca52920a4ee8c8379033ce9fd&) from @kaibuster
 [PO24 office](https://cdn.discordapp.com/attachments/754405144325521530/1019088873646739486/PO24.wav?ex=65efcd79&is=65dd5879&hm=81caec58d5953e6ba7acef113b9c3b2ea158a660c0e9c568929225a4b5468126&) from @hellenbutterlips
+[PO32 tonic (gdrive)](https://drive.google.com/drive/folders/1bB5iHLRufI4jITLNgwq_IMjFS3O96lsb?usp=drive_link) from @caleb2770
+EP133 koii from @curi [400-499](https://drive.google.com/file/d/1NN_i70eShlClcsNq-owg0vnV4dxtEdw2/view?usp=drivesdk) [300-399](https://drive.google.com/file/d/1TncvI0boBTfep49TuXgTQ5JKPvmhjzQ8/view?usp=drivesdk) [100-199](https://drive.google.com/file/d/1upC9r5MK0N_yF9IYtMn18Yh2ZJ8F3l8H/view?usp=drivesdk) [1-99](https://drive.google.com/file/d/1j3-v2qBtURurS_3N58MC7z9ozi4rKIKf/view?usp=drivesdk) [200-299](https://drive.google.com/file/d/1pUax2n_fh1JZOEbfIiVqEoIMF0zd5k-F/view?usp=drivesdk)
 [SP0-256 voice synthesis](https://cdn.discordapp.com/attachments/754405144325521530/903374867972374598/SPO256-set.zip?ex=65ea1ee8&is=65d7a9e8&hm=599465983dc0e68d920554797c0e8503468e0bb0fde5e8dfd654e4e218747306&) from @peterswimm
 [Synth guitar](https://cdn.discordapp.com/attachments/754405144325521530/900451379544457276/GOTEBORG.zip?ex=65e8b6b2&is=65d641b2&hm=cbf516e4c435c93d602c783b624562b3cf4249930a2706a89708031b5d68b67e&) from @laamaa
 [Various synth samples](https://cdn.discordapp.com/attachments/754405144325521530/789301147193573417/Trash80_Synths.zip?ex=65ea67f9&is=65d7f2f9&hm=0bc945b376f817e0d4083415414e9b153e9167ec2a0aff1db255b1593b70d437&) from @trash80
@@ -58,7 +60,6 @@
 (note: the license of these samples may be unknown)
 
 [lofi_kit.7z](https://cdn.discordapp.com/attachments/754405144325521530/1157566932036354050/lofi_kit.7z?ex=65ec03b7&is=65d98eb7&hm=34aae2181bf2bdda27b5020776119e21e5288c77ceac4019843d57aeadea5956&)
-
 
 
 
