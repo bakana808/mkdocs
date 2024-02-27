@@ -67,3 +67,34 @@ designer by @wangus ([download](https://cdn.discordapp.com/attachments/754405144
 ![[Pasted image 20240226231208.png]]
 ![[Pasted image 20240226231219.png]]
 
+BR by @256k ([download](https://cdn.discordapp.com/attachments/754405144325521530/937546086455861309/BR.m8t?ex=65ee76d5&is=65dc01d5&hm=05adceb4a68b8059a745f54cb4a1a7941d356e887c1b1615522a9fb53364981f&))
+![[Pasted image 20240226231422.png]]
+
+Monokai theme by @oks2024 ([download](https://cdn.discordapp.com/attachments/754405144325521530/937999450377424896/monokai.m8t?ex=65e6e290&is=65d46d90&hm=a3c7b5649a71642caa52ff87bf622f13d519ad456ba139328a004903799ac35d&))
+
+![[Pasted image 20240226231509.png]]
+
+Monokai theme by @kkampy ([download](https://cdn.discordapp.com/attachments/754405144325521530/946545544338235412/MONOKAI.m8t?ex=65ea4a3b&is=65d7d53b&hm=63d93bd45a74029b67a97b85a96e2a7b4a8bcfb1aa37d2fd48a472a70e24bb32&))
+![[Pasted image 20240226231544.png]]
+![[Pasted image 20240226231554.png]]
+
+JD-08 theme by @impbox (no link, see screenshot to replicate)
+![[Pasted image 20240226231700.png]]
+
+CANARI by @256k ([download](https://cdn.discordapp.com/attachments/754405144325521530/961690697021423726/CANARI.m8t?ex=65ea0441&is=65d78f41&hm=6cc4b82b0207c072836de6dc40df57f78004c6a12207bf8c1ba70295583deb21&))
+![[Pasted image 20240226231747.png]]
+
+LGPT PSP theme by @256k ([download](https://cdn.discordapp.com/attachments/754405144325521530/965060857811837008/LILPIGGY-PSP.m8t?ex=65ed0c76&is=65da9776&hm=e23ff322e1eba78e9d5d27a3a9cb20c2adee0ecae3b49cb037f4605ce5a8d582&))
+
+LTPNK by @rupa (light theme) ([download](https://cdn.discordapp.com/attachments/754405144325521530/971213371506556948/LTPNK.m8t?ex=65e7bef0&is=65d549f0&hm=9c36b8094185b6d6461afe33106d7431f896cbbac2079748bb345cc9a994252a&))
+
+Gameboy theme by @peynt ([download](https://cdn.discordapp.com/attachments/754405144325521530/975546368045240381/GAMEBOYPALETTE.m8t?ex=65ee47da&is=65dbd2da&hm=2808de2b2276f03a5fb85df1e8812097f95f5c0ac7525922bbe6bda0e4aad3ef&))
+![[Pasted image 20240226231921.png]]
+
+Solarized theme by @masupert ([dark](https://cdn.discordapp.com/attachments/754405144325521530/988482146798825482/SOLARIZED.m8t?ex=65ef32bc&is=65dcbdbc&hm=67e6d15fb409531beb167a0cfeb4237ac5cba25af7b67f9e1c7e6bf9894aa7ac&))([light](https://cdn.discordapp.com/attachments/754405144325521530/988482293897261056/SOLARIZED_LT.m8t?ex=65ef32df&is=65dcbddf&hm=c0ebf68ab04e54e52ca84eda4ec151135aa254c29d74fa493d87d1a7bdcd8632&))
+![[Pasted image 20240226232026.png]]
+![[Pasted image 20240226232034.png]]
+
+Mono Orange by @masupert ([download](https://cdn.discordapp.com/attachments/754405144325521530/988482864263868537/MONO_ORANGE.m8t?ex=65ef3367&is=65dcbe67&hm=829f01f667b17e3f2f7196ce921a953a208367eabceadbef5200df7f939c5bfa&))
+![[Pasted image 20240226232119.png]]
+
