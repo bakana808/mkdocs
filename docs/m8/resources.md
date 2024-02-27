@@ -82,6 +82,7 @@ JD-08 theme by @impbox (no link, see screenshot to replicate)
 ![[Pasted image 20240226231700.png]]
 
 CANARI by @256k ([download](https://cdn.discordapp.com/attachments/754405144325521530/961690697021423726/CANARI.m8t?ex=65ea0441&is=65d78f41&hm=6cc4b82b0207c072836de6dc40df57f78004c6a12207bf8c1ba70295583deb21&))
+
 ![[Pasted image 20240226231747.png]]
 
 LGPT PSP theme by @256k ([download](https://cdn.discordapp.com/attachments/754405144325521530/965060857811837008/LILPIGGY-PSP.m8t?ex=65ed0c76&is=65da9776&hm=e23ff322e1eba78e9d5d27a3a9cb20c2adee0ecae3b49cb037f4605ce5a8d582&))
@@ -98,3 +99,46 @@ Solarized theme by @masupert ([dark](https://cdn.discordapp.com/attachments/7544
 Mono Orange by @masupert ([download](https://cdn.discordapp.com/attachments/754405144325521530/988482864263868537/MONO_ORANGE.m8t?ex=65ef3367&is=65dcbe67&hm=829f01f667b17e3f2f7196ce921a953a208367eabceadbef5200df7f939c5bfa&))
 ![[Pasted image 20240226232119.png]]
 
+HENLEY_ORANG by @mint_sauce ([download](https://cdn.discordapp.com/attachments/754405144325521530/988577519148097616/HENLEY_ORANG.m8t?ex=65ef8b8f&is=65dd168f&hm=4f8ae0c69c2dabcd49e04ba1c1bef15b957eed3114c28c967a98843ba712665e&))
+![[Pasted image 20240226232247.png]]
+
+Synthwave theme by @theejm3 ([download](https://cdn.discordapp.com/attachments/754405144325521530/990407848070631444/SYNTHWAVE.m8t?ex=65ecf9af&is=65da84af&hm=5ccd69fa5c5ea89d8606e2a65a036d22a74bd1d0d993886f639206b750dff786&))
+![[Pasted image 20240226232331.png]]
+
+Amber/Seaweed themes by @jlk ([amber](https://cdn.discordapp.com/attachments/754405144325521530/999719389576310946/AMBER_J.m8t?ex=65e9efbc&is=65d77abc&hm=a9cf386ca2f4421113f11d94ec7fc1b752696dcfd727f4d100e3afee0c493323&))([seaweed](https://cdn.discordapp.com/attachments/754405144325521530/999719389907669022/SEAWEED_J.m8t?ex=65e9efbc&is=65d77abc&hm=4798b2439c4d396e214235138ab1ece85c2c786eee6babecf752913468a4a468&))
+![[Pasted image 20240226232511.png]]
+
+Gruvbox theme by @zurvan ([download](https://cdn.discordapp.com/attachments/754405144325521530/1015012531007389806/GRUVBOX2.m8t?ex=65ea3395&is=65d7be95&hm=22c59580f00d6128edc9a88fa640d98bd4efd15a0371cf4509332952d00e9dd1&))
+![[Pasted image 20240226232740.png]]
+
+Darcula theme by @auz ([download](https://cdn.discordapp.com/attachments/754405144325521530/1015391911407800420/DANKULA.m8t?ex=65eb94e8&is=65d91fe8&hm=4b46ec4e78c5a655b7b0db7e4cca1acb4f5c0f79ecf9049c29e7eac007bb5ece&))
+![[Pasted image 20240226232819.png]]
+
+BACK2CLASS by @archiefunker ([download](https://cdn.discordapp.com/attachments/754405144325521530/1017184923242741931/BACK2CLASS.m8t?ex=65e8e048&is=65d66b48&hm=47a7163e96ea2a5eae9e1bf183037afe0e6bffb54369427d4c08e01d4540f33c&))
+
+One Dark theme by @rj_eckie ([download](https://cdn.discordapp.com/attachments/754405144325521530/1017184923242741931/BACK2CLASS.m8t?ex=65e8e048&is=65d66b48&hm=47a7163e96ea2a5eae9e1bf183037afe0e6bffb54369427d4c08e01d4540f33c&))
+![[Pasted image 20240226232942.png]]
+
+DUNGEON by @apticx ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040278955594354688/DUNGEON_by_apticx.m8t?ex=65e9d5c6&is=65d760c6&hm=b234dac4a0d1936ed4ea3f9f72d39657c5b684128bbbcd8fcb5a4459b5466d7c&))
+![[Pasted image 20240226233012.png]]
+
+EASYEYE by @apticx ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040554449585844305/EASYEYE.m8t?ex=65ead659&is=65d86159&hm=a9115f4c521cc1e14b45a7b226f072e29e9d66dd7b5d17ea25b4c2a7caa5784f&))
+![[Pasted image 20240226233111.png]]
+
+OVERWORLD by @apticx ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040555553916727467/OVERWORLD.m8t?ex=65ead760&is=65d86260&hm=e044cc25f3f3e57b21c7be07ec710e968c91377a503729cd7eef0060643ff111&))
+![[Pasted image 20240226233156.png]]
+
+SAKURA by @apticx ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040555986177503272/SAKURA.m8t?ex=65ead7c7&is=65d862c7&hm=ce55b15b49d2cb113bec21c8c2dd6885a123d231e5d649b83b958d9d2ff706d6&))
+![[Pasted image 20240226233249.png]]
+
+SUNLIGHT by @apticx ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040556440370303026/SUNLIGHT.m8t?ex=65ead833&is=65d86333&hm=93a2d6975bcb884762ef86ad61ce737c71de03ff4879606a592141f6ff38cffc&))
+![[Pasted image 20240226233314.png]]
+
+NIGHT_PINK by @skkeye ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040855542484181042/NIGHT_PINK.m8t?ex=65ebeec3&is=65d979c3&hm=adcd286be48d21c84233e7f0cfb9bcd861a80f3fead4ac414bda44443f80172f&))
+![[Pasted image 20240226233503.png]]
+
+Ableton Live theme by @skkeye ([download](https://cdn.discordapp.com/attachments/754405144325521530/1040856206794838016/ABLETON_LIVE.m8t?ex=65ebef61&is=65d97a61&hm=dff2c016e004cc0b081a4c02ae8818145dcaae6520940163f22d4c4e51a10b27&))
+![[Pasted image 20240226233533.png]]
+
+Cobalt2 theme by @gamingrobot ([download](https://cdn.discordapp.com/attachments/754405144325521530/1048021174199795774/COBALT2.m8t?ex=65ea50c7&is=65d7dbc7&hm=5a0dfeccbfb90f36f15470d412e943554ab771cb11539d08df6decb53ca4c5b3&))
+![[Pasted image 20240226233620.png]]
