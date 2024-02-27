@@ -27,6 +27,7 @@
 [Casiotone CT-370](https://cdn.discordapp.com/attachments/754405144325521530/908156548503724052/CASIO.zip?ex=65e90f31&is=65d69a31&hm=3ea6b1d9704e5ff96ca8e44144cdc11c6c5c63c11699af44b9cd5cf770c907d3&) from @carbonthief
 [Korg DDD-1 and DDD-5](https://cdn.discordapp.com/attachments/754405144325521530/902240708587585596/DDD-KIT-SLICE99.wav?ex=65ef3923&is=65dcc423&hm=dc36440caa39a0b1fcc48a26f3b7a505236e6900e3a35c53dbff4b6cbe0f0336&) (99 slices) from @peteperson
 [Various drum machines](https://cdn.discordapp.com/attachments/754405144325521530/900440043175432272/M8_Drums.zip?ex=65e8ac23&is=65d63723&hm=f4b8e53ee62884a94ad3afd2aed48856b6c5a4958d11e6f4751db62047967e95&) from @dhuck
+[OPL3/YMF262](https://cdn.discordapp.com/attachments/754405144325521530/852713708924436530/ddmm64_op3v0_84.wav?ex=65ea6306&is=65d7ee06&hm=280080c3353178dbbdccb504bf6e19441e27a24eac9bd6ffc5f632afe89bc25e&) from @ddmm64
 
 ### Sampled Instruments
 
