@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/linux/Storage Drives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5698778fd7edf95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "docs/m8/resources.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,19 +179,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5698778fd7edf95",
+  "active": "7438b57801be3c07",
   "lastOpenFiles": [
-    "docs/gamedev/godot/Buffered Input System.md",
+    "docs/m8/_attachments/Pasted image 20240226231219.png",
+    "docs/m8/_attachments/Pasted image 20240226231208.png",
+    "docs/m8/_attachments/Pasted image 20240226231023.png",
+    "docs/m8/_attachments/Pasted image 20240226230908.png",
+    "docs/m8/_attachments/Pasted image 20240226230851.png",
+    "docs/m8/_attachments/Pasted image 20240226230810.png",
+    "docs/m8/_attachments/Pasted image 20240226230647.png",
+    "docs/m8/_attachments/Pasted image 20240226230551.png",
+    "docs/m8/_attachments/Pasted image 20240226230458.png",
+    "docs/m8/_attachments/Pasted image 20240226230330.png",
+    "docs/m8/_attachments/Pasted image 20240226230235.png",
+    "docs/m8/().md",
     "docs/m8/resources.md",
+    "docs/linux/Storage Drives.md",
+    "docs/m8/_attachments",
+    "docs/gamedev/godot/Buffered Input System.md",
     "docs/m8",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
     "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/Get List of Files in a Folder.md",
-    "docs/gamedev/godot/half-pixel.png",
     "docs/gamedev/godot/Pixelization & Low-res Rendering.md",
     "docs/gamedev/godot/Palettes & Dithering.md",
     "docs/linux/Useful Commands.md",
-    "docs/linux/Storage Drives.md",
     "docs/linux/SteamOS.md",
     "docs/linux/Setting up GRUB.md",
     "docs/linux/Gaming.md",
@@ -213,21 +213,12 @@
     "docs/gamedev/godot/Making Low-res Games.md",
     "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412171418.png",
     "docs/gamedev/godot/_attachments",
     "docs/_attachments",
-    "docs/gamedev/godot/snippets/half-pixel.png",
     "docs/gamedev/godot/snippets",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
     "Untitled",
     "docs/gamedev/godot/gamedocs",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412175248.png",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412175142.png",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412174818.png",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412173826.png",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412173706.png",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412173123.png",
-    "docs/gamedev/godot/_attachments/Pasted image 20230412172842.png",
     "docs/index.md",
     "Note 1.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
@@ -235,9 +226,6 @@
     "docs/gamedev/godot",
     "docs/linux/Common Issues.md",
     "docs/linux/Autostarting Programs.md",
-    "docs/gamedev/Untitled 1.md",
-    "docs/linux/_attachments",
-    "docs/linux/Ricing.md",
-    "docs/linux"
+    "docs/linux/_attachments"
   ]
 }
