@@ -8,6 +8,7 @@
 [PO24 office](https://cdn.discordapp.com/attachments/754405144325521530/1019088873646739486/PO24.wav?ex=65efcd79&is=65dd5879&hm=81caec58d5953e6ba7acef113b9c3b2ea158a660c0e9c568929225a4b5468126&) from @hellenbutterlips
 [SP0-256 voice synthesis](https://cdn.discordapp.com/attachments/754405144325521530/903374867972374598/SPO256-set.zip?ex=65ea1ee8&is=65d7a9e8&hm=599465983dc0e68d920554797c0e8503468e0bb0fde5e8dfd654e4e218747306&) from @peterswimm
 [Synth guitar](https://cdn.discordapp.com/attachments/754405144325521530/900451379544457276/GOTEBORG.zip?ex=65e8b6b2&is=65d641b2&hm=cbf516e4c435c93d602c783b624562b3cf4249930a2706a89708031b5d68b67e&) from @laamaa
+[Various synth samples](https://cdn.discordapp.com/attachments/754405144325521530/789301147193573417/Trash80_Synths.zip?ex=65ea67f9&is=65d7f2f9&hm=0bc945b376f817e0d4083415414e9b153e9167ec2a0aff1db255b1593b70d437&) from @trash80
 
 ### Toys/Other
 [SPEAK AND SPELL](https://cdn.discordapp.com/attachments/754405144325521530/1114705958397034557/Speak_and_Spell_Repackaged.7z?ex=65ecf8d2&is=65da83d2&hm=55239c0f5d9926791acf82e0750664d2e681dd28ed41f48559d05127c4e67f72&) from @jegasus
@@ -28,6 +29,8 @@
 [Korg DDD-1 and DDD-5](https://cdn.discordapp.com/attachments/754405144325521530/902240708587585596/DDD-KIT-SLICE99.wav?ex=65ef3923&is=65dcc423&hm=dc36440caa39a0b1fcc48a26f3b7a505236e6900e3a35c53dbff4b6cbe0f0336&) (99 slices) from @peteperson
 [Various drum machines](https://cdn.discordapp.com/attachments/754405144325521530/900440043175432272/M8_Drums.zip?ex=65e8ac23&is=65d63723&hm=f4b8e53ee62884a94ad3afd2aed48856b6c5a4958d11e6f4751db62047967e95&) from @dhuck
 [OPL3/YMF262](https://cdn.discordapp.com/attachments/754405144325521530/852713708924436530/ddmm64_op3v0_84.wav?ex=65ea6306&is=65d7ee06&hm=280080c3353178dbbdccb504bf6e19441e27a24eac9bd6ffc5f632afe89bc25e&) from @ddmm64
+[Roland JV2080](https://cdn.discordapp.com/attachments/754405144325521530/791428923300642836/ROLAND_GM-KIT-S64.zip?ex=65e8eb1f&is=65d6761f&hm=a6405fffb8fc36efd5e894401737fdb0b7ccd7314cf409739e4e58bd0db9492b&) from @trash80
+[TR-606](https://cdn.discordapp.com/attachments/754405144325521530/784312381009952768/TR-606.zip?ex=65eab6d3&is=65d841d3&hm=5f3dbcb512b0f656a31c124e5c610d2138a366dd6523cd90f6135c989773597a&) from @pselodux
 
 ### Sampled Instruments
 
