@@ -20,6 +20,8 @@
 [Yamaha SY22](https://cdn.discordapp.com/attachments/754405144325521530/1053905721097453588/Yamaha_SY22_Drumkit.7z?ex=65ed4430&is=65dacf30&hm=0dc035430becce04b744c4378025b31c712322a2e99a4fcc217cac0e89ae6972&) from @OPdbx
 [Yamaha TG500](https://cdn.discordapp.com/attachments/754405144325521530/1014378996554797056/sliced_TG500_kits_1.0.0.zip?ex=65e7e58f&is=65d5708f&hm=1aba64057ab0a0e4abbcc4774fa8762157b06d0c85e9214894115201cd27479e&) from @ineffable
 [HeXaWe Proteus VX](https://cdn.discordapp.com/attachments/754405144325521530/958222317174001704/sliced_proteusvx_kits_2.0.0.7z?ex=65efdb13&is=65dd6613&hm=ec44862adcb5c9ffb0d73c2067b22b9d912dfe6b9537717d19ee0200ba31ffb1&) from @ineffable
+[Roland TR707](https://cdn.discordapp.com/attachments/754405144325521530/933106686762291271/Roland_TR707_sliced.wav?ex=65e78ad2&is=65d515d2&hm=87586f6852878e009cd04b6283a0c0f237271da952136474dd64a3316860f296&) (file sliced) from @defensemechanism
+[Roland TR727](https://cdn.discordapp.com/attachments/754405144325521530/933106687001378876/Roland_TR727_sliced.wav?ex=65e78ad2&is=65d515d2&hm=771c0e89aa4d12fdeee7d32f5356fe95636789335e3cf2c904ad9fd3ce752892&) (file sliced) from @defensemechanism
 
 ### Sampled Instruments
 
