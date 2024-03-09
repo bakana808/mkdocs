@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/m8/resources.md",
+                "file": "docs/seedbox.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/m8/resources.md",
+                "file": "docs/seedbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/m8/resources.md",
+                "file": "docs/seedbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/m8/resources.md"
+                "file": "docs/seedbox.md"
               }
             }
           }
@@ -181,9 +181,13 @@
   },
   "active": "7438b57801be3c07",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/seedbox.md",
+    "docs/seedbox/Untitled.md",
+    "docs/seedbox",
     "docs/m8/themes.md",
-    "docs/m8/().md",
     "docs/m8/resources.md",
+    "docs/m8/().md",
     "docs/m8/_attachments/Pasted image 20240226233620.png",
     "docs/m8/_attachments/Pasted image 20240226233533.png",
     "docs/m8/_attachments/Pasted image 20240226233503.png",
@@ -217,15 +221,11 @@
     "docs/_attachments",
     "docs/gamedev/godot/snippets",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
-    "Untitled",
     "docs/gamedev/godot/gamedocs",
-    "docs/index.md",
     "Note 1.md",
     "docs/gamedev/godot/guides/Creating an FPS Controller.md",
     "docs/gamedev/godot/guides",
     "docs/gamedev/godot",
-    "docs/linux/Common Issues.md",
-    "docs/linux/Autostarting Programs.md",
     "docs/linux/_attachments"
   ]
 }
