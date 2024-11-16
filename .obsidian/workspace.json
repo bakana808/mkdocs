@@ -16,7 +16,9 @@
                 "file": "docs/gamedev/godot/gamedocs/bulletlab.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "bulletlab"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Freeing Many Nodes At Once"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "docs/seedbox.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "seedbox"
             }
           }
         ],
@@ -64,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -79,7 +87,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -95,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -126,7 +140,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for seedbox"
             }
           },
           {
@@ -138,7 +154,9 @@
                 "file": "docs/seedbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from seedbox"
             }
           },
           {
@@ -149,7 +167,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -159,7 +179,9 @@
               "type": "outline",
               "state": {
                 "file": "docs/seedbox.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of seedbox"
             }
           }
         ]
