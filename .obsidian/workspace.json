@@ -175,6 +175,8 @@
   },
   "active": "bb1cc21a6aee0bc2",
   "lastOpenFiles": [
+    "supernote/20241116_070408.note",
+    "supernote/~syncthing~20241116_070408.note.tmp",
     "supernote/~syncthing~20241115_125700.note.tmp",
     "supernote/20241115_125700.note",
     "supernote/20241115_125700.md",
@@ -218,7 +220,6 @@
     "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
     "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
     "docs/gamedev/godot/_attachments",
-    "docs/_attachments",
-    "docs/gamedev/godot/snippets"
+    "docs/_attachments"
   ]
 }
