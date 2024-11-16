@@ -11,14 +11,12 @@
             "id": "bb1cc21a6aee0bc2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "supernote-view",
               "state": {
-                "file": "supernote/20241115_125700.md",
-                "mode": "source",
-                "source": false
+                "file": "supernote/20241116_072338.note"
               },
               "icon": "lucide-file",
-              "title": "20241115_125700"
+              "title": "20241116_072338"
             }
           }
         ]
@@ -175,25 +173,25 @@
   },
   "active": "bb1cc21a6aee0bc2",
   "lastOpenFiles": [
+    "supernote/20241116_095920.note",
+    "supernote/~syncthing~20241116_095920.note.tmp",
+    "supernote/20241116_071920.note",
+    "supernote/20241116_070408.note",
+    "supernote/20241115_125700.note",
+    "supernote/20241115_125700.md",
     "supernote/~syncthing~20241116_072338.note.tmp",
     "supernote/20241116_072338.note",
     "supernote/~syncthing~20241116_071920.note.tmp",
-    "supernote/20241116_071920.note",
-    "supernote/20241116_070408.note",
     "supernote/~syncthing~20241116_070408.note.tmp",
     "supernote/~syncthing~20241115_125700.note.tmp",
-    "supernote/20241115_125700.note",
-    "supernote/20241115_125700.md",
     "supernote/_attachments/20241115_125700-1.png",
     "supernote/_attachments/20241115_125700-0.png",
     "supernote/_attachments",
     "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
     "docs/seedbox.md",
-    "supernote",
     "docs/index.md",
     "docs/seedbox/Untitled.md",
-    "docs/seedbox",
     "docs/m8/themes.md",
     "docs/m8/resources.md",
     "docs/m8/().md",
