@@ -4,51 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f2f2bb8642f6f68b",
+        "id": "25910f8089e6f38f",
         "type": "tabs",
         "children": [
           {
-            "id": "84a895f0fba52c1f",
+            "id": "bb1cc21a6aee0bc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/gamedev/godot/gamedocs/bulletlab.md",
+                "file": "supernote/20241115_125700.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bulletlab"
-            }
-          },
-          {
-            "id": "5adc80c031f66866",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/gamedev/godot/Freeing Many Nodes At Once.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Freeing Many Nodes At Once"
-            }
-          },
-          {
-            "id": "7438b57801be3c07",
-            "type": "leaf",
-            "state": {
-              "type": "supernote-view",
-              "state": {
-                "file": "supernote/20241115_125700.note"
               },
               "icon": "lucide-file",
               "title": "20241115_125700"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "supernote/20241115_125700.note",
+                "file": "supernote/20241115_125700.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "supernote/20241115_125700.note",
+                "file": "supernote/20241115_125700.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -176,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "supernote/20241115_125700.note"
+                "file": "supernote/20241115_125700.md"
               },
               "icon": "lucide-list",
               "title": "Outline of 20241115_125700"
@@ -200,11 +173,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7438b57801be3c07",
+  "active": "bb1cc21a6aee0bc2",
   "lastOpenFiles": [
-    "docs/seedbox.md",
     "supernote/20241115_125700.note",
+    "supernote/20241115_125700.md",
+    "supernote/_attachments/20241115_125700-1.png",
+    "supernote/_attachments/20241115_125700-0.png",
+    "supernote/_attachments",
+    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "supernote/~syncthing~20241115_125700.note.tmp",
+    "docs/gamedev/godot/gamedocs/bulletlab.md",
+    "docs/seedbox.md",
     "supernote",
     "docs/index.md",
     "docs/seedbox/Untitled.md",
@@ -220,14 +199,11 @@
     "docs/m8/_attachments/Pasted image 20240226233249.png",
     "docs/m8/_attachments/Pasted image 20240226233156.png",
     "docs/m8/_attachments/Pasted image 20240226233111.png",
-    "docs/m8/_attachments/Pasted image 20240226233012.png",
-    "docs/m8/_attachments/Pasted image 20240226233009.png",
     "docs/linux/Storage Drives.md",
     "docs/m8/_attachments",
     "docs/gamedev/godot/Buffered Input System.md",
     "docs/m8",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
-    "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/Get List of Files in a Folder.md",
     "docs/gamedev/godot/Pixelization & Low-res Rendering.md",
     "docs/gamedev/godot/Palettes & Dithering.md",
@@ -243,9 +219,6 @@
     "docs/gamedev/godot/snippets/Get List of Files in a Folder.md",
     "docs/gamedev/godot/_attachments",
     "docs/_attachments",
-    "docs/gamedev/godot/snippets",
-    "docs/gamedev/godot/gamedocs/bulletlab.md",
-    "docs/gamedev/godot/gamedocs",
-    "Note 1.md"
+    "docs/gamedev/godot/snippets"
   ]
 }
