@@ -39,14 +39,12 @@
             "id": "7438b57801be3c07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "supernote-view",
               "state": {
-                "file": "docs/seedbox.md",
-                "mode": "source",
-                "source": false
+                "file": "supernote/20241115_125700.note"
               },
               "icon": "lucide-file",
-              "title": "seedbox"
+              "title": "20241115_125700"
             }
           }
         ],
@@ -132,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/seedbox.md",
+                "file": "supernote/20241115_125700.note",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for seedbox"
+              "title": "Backlinks for 20241115_125700"
             }
           },
           {
@@ -151,12 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/seedbox.md",
+                "file": "supernote/20241115_125700.note",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from seedbox"
+              "title": "Outgoing links from 20241115_125700"
             }
           },
           {
@@ -178,10 +176,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/seedbox.md"
+                "file": "supernote/20241115_125700.note"
               },
               "icon": "lucide-list",
-              "title": "Outline of seedbox"
+              "title": "Outline of 20241115_125700"
             }
           }
         ]
@@ -202,11 +200,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "537f377272855ee4",
+  "active": "7438b57801be3c07",
   "lastOpenFiles": [
+    "docs/seedbox.md",
+    "supernote/20241115_125700.note",
+    "supernote/~syncthing~20241115_125700.note.tmp",
     "supernote",
     "docs/index.md",
-    "docs/seedbox.md",
     "docs/seedbox/Untitled.md",
     "docs/seedbox",
     "docs/m8/themes.md",
@@ -246,9 +246,6 @@
     "docs/gamedev/godot/snippets",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
     "docs/gamedev/godot/gamedocs",
-    "Note 1.md",
-    "docs/gamedev/godot/guides",
-    "docs/gamedev/godot",
-    "docs/linux/_attachments"
+    "Note 1.md"
   ]
 }
