@@ -13,13 +13,26 @@
             "state": {
               "type": "supernote-view",
               "state": {
-                "file": "supernote/20241116_072338.note"
+                "file": "supernote/20241116_095920.note"
               },
               "icon": "lucide-file",
-              "title": "20241116_072338"
+              "title": "20241116_095920"
+            }
+          },
+          {
+            "id": "b9e9fce8fc768309",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,8 +184,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb1cc21a6aee0bc2",
+  "active": "b9e9fce8fc768309",
   "lastOpenFiles": [
+    "supernote/20241116_072338.note",
     "supernote/20241116_095920.note",
     "supernote/~syncthing~20241116_095920.note.tmp",
     "supernote/20241116_071920.note",
@@ -180,7 +194,6 @@
     "supernote/20241115_125700.note",
     "supernote/20241115_125700.md",
     "supernote/~syncthing~20241116_072338.note.tmp",
-    "supernote/20241116_072338.note",
     "supernote/~syncthing~20241116_071920.note.tmp",
     "supernote/~syncthing~20241116_070408.note.tmp",
     "supernote/~syncthing~20241115_125700.note.tmp",
