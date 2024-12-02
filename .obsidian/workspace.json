@@ -4,49 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "25910f8089e6f38f",
-        "type": "tabs",
+        "id": "56b2d049add1f85b",
+        "type": "split",
         "children": [
           {
-            "id": "bb1cc21a6aee0bc2",
-            "type": "leaf",
-            "state": {
-              "type": "supernote-view",
-              "state": {
-                "file": "supernote/20241116_095920.note"
-              },
-              "icon": "lucide-file",
-              "title": "20241116_095920"
-            }
+            "id": "5c8ce77f0a6e409f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b9e9fce8fc768309",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/m8/themes.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "themes"
+                }
+              }
+            ]
           },
           {
-            "id": "b9e9fce8fc768309",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/m8/themes.md",
-                "mode": "source",
-                "source": false
+            "id": "25910f8089e6f38f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bb1cc21a6aee0bc2",
+                "type": "leaf",
+                "state": {
+                  "type": "supernote-view",
+                  "state": {
+                    "file": "supernote/20241116_095920.note"
+                  },
+                  "icon": "lucide-file",
+                  "title": "20241116_095920"
+                }
               },
-              "icon": "lucide-file",
-              "title": "themes"
-            }
-          },
-          {
-            "id": "494c4fc4cd291617",
-            "type": "leaf",
-            "state": {
-              "type": "supernote-view",
-              "state": {
-                "file": "supernote/sudoku.note"
-              },
-              "icon": "lucide-file",
-              "title": "sudoku"
-            }
+              {
+                "id": "494c4fc4cd291617",
+                "type": "leaf",
+                "state": {
+                  "type": "supernote-view",
+                  "state": {
+                    "file": "supernote/20241123_172342.note"
+                  },
+                  "icon": "lucide-file",
+                  "title": "20241123_172342"
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
-        "currentTab": 2
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -198,26 +211,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "537f377272855ee4",
+  "active": "494c4fc4cd291617",
   "lastOpenFiles": [
-    "supernote/m8gd.note",
+    "supernote/_attachments/20241123_172342-0.png",
     "supernote/20241123_172342.note",
     "supernote/20241116_095920.note",
+    "supernote/~syncthing~20241123_172342.note.tmp",
+    "supernote/20241115_125700.md",
+    "supernote/_attachments/20241115_125700-0.png",
+    "supernote/_attachments/20241115_125700-1.png",
+    "supernote/20241123_172342.md",
+    "supernote/20241116_072338.note",
     "supernote/sudoku.note",
+    "supernote/m8gd.note",
     "supernote/~syncthing~20241116_072338.note.tmp",
     "supernote/20241121_053932.doc",
     "supernote/~syncthing~sudoku.note.tmp",
     "supernote/~syncthing~m8gd.note.tmp",
-    "supernote/~syncthing~20241123_172342.note.tmp",
-    "supernote/~syncthing~20241121_053932.doc.tmp",
-    "supernote/~syncthing~20241116_095920.note.tmp",
-    "supernote/20241115_125700.md",
     "docs/m8/fm synth planning 101.md",
     "docs/m8/themes.md",
     "docs/m8/resources.md",
     "docs/seedbox.md",
-    "supernote/_attachments/20241115_125700-1.png",
-    "supernote/_attachments/20241115_125700-0.png",
     "docs/gamedev/godot/Freeing Many Nodes At Once.md",
     "docs/gamedev/godot/gamedocs/bulletlab.md",
     "docs/index.md",
@@ -230,7 +244,6 @@
     "docs/m8/_attachments/Pasted image 20240226233311.png",
     "docs/m8/_attachments/Pasted image 20240226233249.png",
     "docs/m8/_attachments/Pasted image 20240226233156.png",
-    "docs/m8/_attachments/Pasted image 20240226233111.png",
     "docs/linux/Storage Drives.md",
     "docs/gamedev/godot/Buffered Input System.md",
     "docs/gamedev/godot/Font Data Half-Pixel Fix.md",
@@ -244,7 +257,6 @@
     "docs/linux/Dotfiles.md",
     "docs/gamedev/godot/snippets/Palettes & Dithering.md",
     "docs/gamedev/godot/guides/Buffered Input System.md",
-    "docs/gamedev/godot/Making Low-res Games.md",
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md"
+    "docs/gamedev/godot/Making Low-res Games.md"
   ]
 }
