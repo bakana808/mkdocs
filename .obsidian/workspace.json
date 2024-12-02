@@ -37,14 +37,12 @@
             "id": "494c4fc4cd291617",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "supernote-view",
               "state": {
-                "file": "docs/m8/fm synth planning 101.md",
-                "mode": "source",
-                "source": false
+                "file": "supernote/sudoku.note"
               },
               "icon": "lucide-file",
-              "title": "fm synth planning 101"
+              "title": "sudoku"
             }
           }
         ],
@@ -200,23 +198,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "494c4fc4cd291617",
+  "active": "537f377272855ee4",
   "lastOpenFiles": [
-    "docs/m8/themes.md",
+    "supernote/m8gd.note",
+    "supernote/20241123_172342.note",
+    "supernote/20241116_095920.note",
+    "supernote/sudoku.note",
+    "supernote/~syncthing~20241116_072338.note.tmp",
+    "supernote/20241121_053932.doc",
+    "supernote/~syncthing~sudoku.note.tmp",
+    "supernote/~syncthing~m8gd.note.tmp",
+    "supernote/~syncthing~20241123_172342.note.tmp",
+    "supernote/~syncthing~20241121_053932.doc.tmp",
+    "supernote/~syncthing~20241116_095920.note.tmp",
+    "supernote/20241115_125700.md",
     "docs/m8/fm synth planning 101.md",
+    "docs/m8/themes.md",
     "docs/m8/resources.md",
     "docs/seedbox.md",
-    "supernote/20241116_072338.note",
-    "supernote/20241116_095920.note",
-    "supernote/~syncthing~20241116_095920.note.tmp",
-    "supernote/20241116_071920.note",
-    "supernote/20241116_070408.note",
-    "supernote/20241115_125700.note",
-    "supernote/20241115_125700.md",
-    "supernote/~syncthing~20241116_072338.note.tmp",
-    "supernote/~syncthing~20241116_071920.note.tmp",
-    "supernote/~syncthing~20241116_070408.note.tmp",
-    "supernote/~syncthing~20241115_125700.note.tmp",
     "supernote/_attachments/20241115_125700-1.png",
     "supernote/_attachments/20241115_125700-0.png",
     "docs/gamedev/godot/Freeing Many Nodes At Once.md",
@@ -246,7 +245,6 @@
     "docs/gamedev/godot/snippets/Palettes & Dithering.md",
     "docs/gamedev/godot/guides/Buffered Input System.md",
     "docs/gamedev/godot/Making Low-res Games.md",
-    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md",
-    "docs/gamedev/godot/snippets/Get List of Files in a Folder.md"
+    "docs/gamedev/godot/snippets/Font Data Half-Pixel Fix.md"
   ]
 }
