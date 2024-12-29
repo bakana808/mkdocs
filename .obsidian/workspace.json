@@ -47,12 +47,14 @@
                 "id": "494c4fc4cd291617",
                 "type": "leaf",
                 "state": {
-                  "type": "supernote-view",
+                  "type": "markdown",
                   "state": {
-                    "file": "supernote/20241123_172342.note"
+                    "file": "docs/gamedev/godot/External Editors.md",
+                    "mode": "source",
+                    "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "20241123_172342"
+                  "title": "External Editors"
                 }
               }
             ],
@@ -213,8 +215,9 @@
   },
   "active": "494c4fc4cd291617",
   "lastOpenFiles": [
-    "supernote/_attachments/20241123_172342-0.png",
     "supernote/20241123_172342.note",
+    "docs/gamedev/godot/External Editors.md",
+    "supernote/_attachments/20241123_172342-0.png",
     "supernote/20241116_095920.note",
     "supernote/~syncthing~20241123_172342.note.tmp",
     "supernote/20241115_125700.md",
@@ -256,7 +259,6 @@
     "docs/linux/Gaming.md",
     "docs/linux/Dotfiles.md",
     "docs/gamedev/godot/snippets/Palettes & Dithering.md",
-    "docs/gamedev/godot/guides/Buffered Input System.md",
-    "docs/gamedev/godot/Making Low-res Games.md"
+    "docs/gamedev/godot/guides/Buffered Input System.md"
   ]
 }
