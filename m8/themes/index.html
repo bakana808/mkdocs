@@ -1,0 +1,527 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../resources/" rel="prev"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.5.49" name="generator"/>
+<title>Themes - octopod</title>
+<link href="../../assets/stylesheets/main.6f8fc17f.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="teal" data-md-color-primary="white" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="octopod" class="md-header__button md-logo" data-md-component="logo" href="../.." title="octopod">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            octopod
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Themes
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="teal" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="white" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="teal" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="blue-grey" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="octopod" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="octopod">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    octopod
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    Homepage
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../seedbox/">
+<span class="md-ellipsis">
+    Seedbox
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Gamedev
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Gamedev
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Godot
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+            Godot
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/Buffered%20Input%20System/">
+<span class="md-ellipsis">
+    Buffered Input System
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/External%20Editors/">
+<span class="md-ellipsis">
+    VSCode
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/Font%20Data%20Half-Pixel%20Fix/">
+<span class="md-ellipsis">
+    Font Data Half Pixel Fix
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/Freeing%20Many%20Nodes%20At%20Once/">
+<span class="md-ellipsis">
+    Freeing Many Nodes At Once
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/Get%20List%20of%20Files%20in%20a%20Folder/">
+<span class="md-ellipsis">
+    Get List of Files in a Folder
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/Palettes%20%26%20Dithering/">
+<span class="md-ellipsis">
+    Palettes &amp; Dithering
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/Pixelization%20%26%20Low-res%20Rendering/">
+<span class="md-ellipsis">
+    Pixelization
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1_8" id="__nav_3_1_8_label" tabindex="0">
+<span class="md-ellipsis">
+    Gamedocs
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_8_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_3_1_8">
+<span class="md-nav__icon md-icon"></span>
+            Gamedocs
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/gamedocs/bulletlab/">
+<span class="md-ellipsis">
+    Bulletlab
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1_9" id="__nav_3_1_9_label" tabindex="0">
+<span class="md-ellipsis">
+    Guides
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_9_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_3_1_9">
+<span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gamedev/godot/guides/Creating%20an%20FPS%20Controller/">
+<span class="md-ellipsis">
+    Creating a 3D FPS Player Controller
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Linux
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Linux
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Autostarting%20Programs/">
+<span class="md-ellipsis">
+    Autostarting Programs
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Common%20Issues/">
+<span class="md-ellipsis">
+    Common Issues
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Dotfiles/">
+<span class="md-ellipsis">
+    Dotfiles
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Gaming/">
+<span class="md-ellipsis">
+    Gaming
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Packages/">
+<span class="md-ellipsis">
+    Packages
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Ricing/">
+<span class="md-ellipsis">
+    Ricing
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Setting%20up%20GRUB/">
+<span class="md-ellipsis">
+    Setting up a GRUB partition
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/SteamOS/">
+<span class="md-ellipsis">
+    SteamOS
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Storage%20Drives/">
+<span class="md-ellipsis">
+    Storage Drives
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../linux/Useful%20Commands/">
+<span class="md-ellipsis">
+    Useful Commands
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    M8
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            M8
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../%28%29/">
+<span class="md-ellipsis">
+    ()
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../fm%20synth%20planning%20101/">
+<span class="md-ellipsis">
+    M8 FM Synth Planning 101
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../resources/">
+<span class="md-ellipsis">
+    Resources
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Themes
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Themes</h1>
+<p>## Themes</p>
+<p>BAUHAUS by @ryry (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1201346696689483776/BAUHAUS.m8t?ex=65ee664c&amp;is=65dbf14c&amp;hm=bbd4729caed9bcc4316887c05f8a85e19e020b5876fdb9460e48b6e88f1af73c&amp;">download</a>)</p>
+<p>fast tracker 2 theme by @pselodux (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1173952229267476550/FT2.m8t?ex=65e70636&amp;is=65d49136&amp;hm=b082108de4fbef7c6a6f9f17b6c4c67cea4e3945db012f605578d9ad11c39fa9&amp;">download</a>)</p>
+<p><img alt="" src="https://media.discordapp.net/attachments/754405144325521530/1173952228185358376/Screen_Shot_2023-11-14_at_10.43.57_pm.png?ex=65e70636&amp;is=65d49136&amp;hm=55162929a45f266d6eae4ba50ae8a68619322dbf4902e912e41f8ee1897aa5bf&amp;=&amp;format=webp&amp;quality=lossless&amp;width=981&amp;height=676"/></p>
+<p>FUNKTRONIC2 by @disposableplanet (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1173734389805494272/FUNKTRONIC2.m8t?ex=65ef75d5&amp;is=65dd00d5&amp;hm=86162cb93f290171bacfd37c6a779b9a34a25dc966cf956314209a7fdd79a11f&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226225022.png" src="../_attachments/Pasted%20image%2020240226225022.png"/></p>
+<p>rose pine by @jupart (based on https://rosepinetheme.com/) (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1166112566452428870/ROSE-PINE.m8t?ex=65ef6af5&amp;is=65dcf5f5&amp;hm=17d3f1561282bab2478038bd2a918ca4ceacf55ee4449a4abe1a79a77a72f003&amp;">download</a>)</p>
+<p>monocolor themes (.zip) by @verbastel (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1164273021704474634/M8_monocolor_themes.zip?ex=65e8b9bf&amp;is=65d644bf&amp;hm=5882e5695f40ebf342c524b0392a2a40dbaad7187a71c1d6e63262e49fa4b693&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226225337.png" src="../_attachments/Pasted%20image%2020240226225337.png"/></p>
+<p>Modus Operandi theme by @jupart (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1161051500726988810/MODUS.m8t?ex=65ef7679&amp;is=65dd0179&amp;hm=475870da80c2d5c4461af484448c6c0ec6f33d0afd6644c6e77acafb5febaac5&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226225556.png" src="../_attachments/Pasted%20image%2020240226225556.png"/></p>
+<p>Tycho theme by @antsa (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1152570839095582730/TYCHO_DARK.m8t?ex=65ec4bbd&amp;is=65d9d6bd&amp;hm=4d509dcd83905a52baf48907f558e9342f06f1b08128c035b9385b87286c12d4&amp;">dark</a>) (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1152570839645032448/TYCHO_LIGHT.m8t?ex=65ec4bbd&amp;is=65d9d6bd&amp;hm=f324ec7ae462806d418cbfddde28714753de0c3673452e8c379dd9b1e8b923e7&amp;">light</a>)</p>
+<p><img alt="Pasted image 20240226225731.png" src="../_attachments/Pasted%20image%2020240226225731.png"/>
+<img alt="Pasted image 20240226225739.png" src="../_attachments/Pasted%20image%2020240226225739.png"/></p>
+<p>gameboy theme by @monodestroyer (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1149283275811069973/MD_GAMEBOY.m8t?ex=65e99075&amp;is=65d71b75&amp;hm=5abdaa43138d3b305da8dd3747764fbdc0f27817fe7461ad9375c10c6e1ecb6d&amp;">download</a>)</p>
+<p>Burnt by @ahlstrominfo (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1141321262635962368/Burnt.m8t?ex=65e848c1&amp;is=65d5d3c1&amp;hm=c7fd64207765484e5f3448834310abcc2ec0f1a32c10c7cc0592ffef45d08a73&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226225850.png" src="../_attachments/Pasted%20image%2020240226225850.png"/></p>
+<p>Embark theme (based on https://embark-theme.github.io/) by @toyz (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1140054262689300620/EMBARK.m8t?ex=65ece745&amp;is=65da7245&amp;hm=e67215e2dad71b114354a28090a80714630fcb938881ab7747f650507dbe2a11&amp;">download</a>) (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1140054589878579251/EMBARK_DARK.m8t?ex=65ece793&amp;is=65da7293&amp;hm=694f501b648f41463389db77b86ab0eaa74bb158bf7049486aa3b3fafc1aa9c3&amp;">high contrast</a>)</p>
+<p><img alt="Pasted image 20240226230121.png" src="../_attachments/Pasted%20image%2020240226230121.png"/><img alt="Pasted image 20240226230125.png" src="../_attachments/Pasted%20image%2020240226230125.png"/></p>
+<p>Polyend Tracker theme by @liminaleris (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1135786350885478410/PE_TRACKER.m8t?ex=65efd577&amp;is=65dd6077&amp;hm=09828e380be11d59cd5fb1601a4cc0023e1bcaf58d870ffc74d348e35e3963cf&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226230235.png" src="../_attachments/Pasted%20image%2020240226230235.png"/></p>
+<p>Skeletor by @enduss (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1113916153308381256/THEME_002A54.m8t?ex=65ea1942&amp;is=65d7a442&amp;hm=c422bab7b7c079bcc707f87e7507ee816e251d93c8490ecbb1bc65be7789349d&amp;">download</a>))</p>
+<p><img alt="Pasted image 20240226230330.png" src="../_attachments/Pasted%20image%2020240226230330.png"/></p>
+<p>Bi theme by @sleepside (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1113797121074794537/BIPRIDE.m8t?ex=65e9aa67&amp;is=65d73567&amp;hm=9caa5b47c19fbfb63a28319b99c806e4d938b30ac6d9da2611fd24786522929e&amp;">download</a>)
+<img alt="Pasted image 20240226230458.png" src="../_attachments/Pasted%20image%2020240226230458.png"/></p>
+<p>][c theme by @distropolis (<a href="https://cdn.discordapp.com/attachments/754405144325521530/856975923617595422/C.m8t?ex=65e76f86&amp;is=65d4fa86&amp;hm=9543a04f658ad7426f281cc0dd11570869b1d399fba9fe7610f4926f82b831ab&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226230551.png" src="../_attachments/Pasted%20image%2020240226230551.png"/></p>
+<p>Halloween theme by @spiffe (<a href="https://cdn.discordapp.com/attachments/754405144325521530/897164371468382288/5PF_HALLOWEN.m8t?ex=65ef366e&amp;is=65dcc16e&amp;hm=ba499829d2a9006e59c73fae29c3bf10f4766b794310fd3821ff096b145e0f21&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226230647.png" src="../_attachments/Pasted%20image%2020240226230647.png"/></p>
+<p>Amaterasu theme (based off the game Okami) by @s0nlxaftrsh0ck (<a href="https://cdn.discordapp.com/attachments/754405144325521530/907120858533875752/AMMY.m8t?ex=65ee8522&amp;is=65dc1022&amp;hm=879ca2e9aac5329127f092facea54640720fc4d4ada8375dffc7c9f796eb29fb&amp;">download</a>)
+<img alt="Pasted image 20240226230810.png" src="../_attachments/Pasted%20image%2020240226230810.png"/></p>
+<p>Rez theme by @s0nlxaftrsh0ck (<a href="https://cdn.discordapp.com/attachments/754405144325521530/907448185063100447/REZ.m8t?ex=65efb5fa&amp;is=65dd40fa&amp;hm=1357c6a0e87487f1945ec40977af45a6325e3c11f86cd0bd13f2dacea411f0e7&amp;">download</a>)
+<img alt="Pasted image 20240226230851.png" src="../_attachments/Pasted%20image%2020240226230851.png"/></p>
+<p>Treydark by @fracture (<a href="https://d28vpsbeh0wh2.cloudfront.net/?tn=TREYDARK01&amp;bg=212121&amp;te=242424&amp;ti=545454&amp;td=0080ff&amp;tv=bfbfbf&amp;tt=d1d100&amp;pm=d1d100&amp;c=d99000&amp;s=d99000&amp;ss=d99000&amp;ml=0080ff&amp;mm=d1d100&amp;mp=ff0000">link</a>)
+<img alt="Pasted image 20240226231023.png" src="../_attachments/Pasted%20image%2020240226231023.png"/></p>
+<p>designer by @wangus (<a href="https://cdn.discordapp.com/attachments/754405144325521530/914306588980965416/DESIGNER.m8t?ex=65ecf9dd&amp;is=65da84dd&amp;hm=64b356b152e92702f253184974a6e335232f496a1b73cd5bd7e0792241ec0c0f&amp;">download</a>) (<a href="https://cdn.discordapp.com/attachments/754405144325521530/914306589123559464/INKVERT.m8t?ex=65ecf9dd&amp;is=65da84dd&amp;hm=b6df0c4aaab47cbaaa2bb47c61a9bdf17ae7e7c99a7ef2b9e5e35e17cbd6fe06&amp;">light</a>)
+<img alt="Pasted image 20240226231208.png" src="../_attachments/Pasted%20image%2020240226231208.png"/>
+<img alt="Pasted image 20240226231219.png" src="../_attachments/Pasted%20image%2020240226231219.png"/></p>
+<p>BR by @256k (<a href="https://cdn.discordapp.com/attachments/754405144325521530/937546086455861309/BR.m8t?ex=65ee76d5&amp;is=65dc01d5&amp;hm=05adceb4a68b8059a745f54cb4a1a7941d356e887c1b1615522a9fb53364981f&amp;">download</a>)
+<img alt="Pasted image 20240226231422.png" src="../_attachments/Pasted%20image%2020240226231422.png"/></p>
+<p>Monokai theme by @oks2024 (<a href="https://cdn.discordapp.com/attachments/754405144325521530/937999450377424896/monokai.m8t?ex=65e6e290&amp;is=65d46d90&amp;hm=a3c7b5649a71642caa52ff87bf622f13d519ad456ba139328a004903799ac35d&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226231509.png" src="../_attachments/Pasted%20image%2020240226231509.png"/></p>
+<p>Monokai theme by @kkampy (<a href="https://cdn.discordapp.com/attachments/754405144325521530/946545544338235412/MONOKAI.m8t?ex=65ea4a3b&amp;is=65d7d53b&amp;hm=63d93bd45a74029b67a97b85a96e2a7b4a8bcfb1aa37d2fd48a472a70e24bb32&amp;">download</a>)
+<img alt="Pasted image 20240226231544.png" src="../_attachments/Pasted%20image%2020240226231544.png"/>
+<img alt="Pasted image 20240226231554.png" src="../_attachments/Pasted%20image%2020240226231554.png"/></p>
+<p>JD-08 theme by @impbox (no link, see screenshot to replicate)
+<img alt="Pasted image 20240226231700.png" src="../_attachments/Pasted%20image%2020240226231700.png"/></p>
+<p>CANARI by @256k (<a href="https://cdn.discordapp.com/attachments/754405144325521530/961690697021423726/CANARI.m8t?ex=65ea0441&amp;is=65d78f41&amp;hm=6cc4b82b0207c072836de6dc40df57f78004c6a12207bf8c1ba70295583deb21&amp;">download</a>)</p>
+<p><img alt="Pasted image 20240226231747.png" src="../_attachments/Pasted%20image%2020240226231747.png"/></p>
+<p>LGPT PSP theme by @256k (<a href="https://cdn.discordapp.com/attachments/754405144325521530/965060857811837008/LILPIGGY-PSP.m8t?ex=65ed0c76&amp;is=65da9776&amp;hm=e23ff322e1eba78e9d5d27a3a9cb20c2adee0ecae3b49cb037f4605ce5a8d582&amp;">download</a>)</p>
+<p>LTPNK by @rupa (light theme) (<a href="https://cdn.discordapp.com/attachments/754405144325521530/971213371506556948/LTPNK.m8t?ex=65e7bef0&amp;is=65d549f0&amp;hm=9c36b8094185b6d6461afe33106d7431f896cbbac2079748bb345cc9a994252a&amp;">download</a>)</p>
+<p>Gameboy theme by @peynt (<a href="https://cdn.discordapp.com/attachments/754405144325521530/975546368045240381/GAMEBOYPALETTE.m8t?ex=65ee47da&amp;is=65dbd2da&amp;hm=2808de2b2276f03a5fb85df1e8812097f95f5c0ac7525922bbe6bda0e4aad3ef&amp;">download</a>)
+<img alt="Pasted image 20240226231921.png" src="../_attachments/Pasted%20image%2020240226231921.png"/></p>
+<p>Solarized theme by @masupert (<a href="https://cdn.discordapp.com/attachments/754405144325521530/988482146798825482/SOLARIZED.m8t?ex=65ef32bc&amp;is=65dcbdbc&amp;hm=67e6d15fb409531beb167a0cfeb4237ac5cba25af7b67f9e1c7e6bf9894aa7ac&amp;">dark</a>)(<a href="https://cdn.discordapp.com/attachments/754405144325521530/988482293897261056/SOLARIZED_LT.m8t?ex=65ef32df&amp;is=65dcbddf&amp;hm=c0ebf68ab04e54e52ca84eda4ec151135aa254c29d74fa493d87d1a7bdcd8632&amp;">light</a>)
+<img alt="Pasted image 20240226232026.png" src="../_attachments/Pasted%20image%2020240226232026.png"/>
+<img alt="Pasted image 20240226232034.png" src="../_attachments/Pasted%20image%2020240226232034.png"/></p>
+<p>Mono Orange by @masupert (<a href="https://cdn.discordapp.com/attachments/754405144325521530/988482864263868537/MONO_ORANGE.m8t?ex=65ef3367&amp;is=65dcbe67&amp;hm=829f01f667b17e3f2f7196ce921a953a208367eabceadbef5200df7f939c5bfa&amp;">download</a>)
+<img alt="Pasted image 20240226232119.png" src="../_attachments/Pasted%20image%2020240226232119.png"/></p>
+<p>HENLEY_ORANG by @mint_sauce (<a href="https://cdn.discordapp.com/attachments/754405144325521530/988577519148097616/HENLEY_ORANG.m8t?ex=65ef8b8f&amp;is=65dd168f&amp;hm=4f8ae0c69c2dabcd49e04ba1c1bef15b957eed3114c28c967a98843ba712665e&amp;">download</a>)
+<img alt="Pasted image 20240226232247.png" src="../_attachments/Pasted%20image%2020240226232247.png"/></p>
+<p>Synthwave theme by @theejm3 (<a href="https://cdn.discordapp.com/attachments/754405144325521530/990407848070631444/SYNTHWAVE.m8t?ex=65ecf9af&amp;is=65da84af&amp;hm=5ccd69fa5c5ea89d8606e2a65a036d22a74bd1d0d993886f639206b750dff786&amp;">download</a>)
+<img alt="Pasted image 20240226232331.png" src="../_attachments/Pasted%20image%2020240226232331.png"/></p>
+<p>Amber/Seaweed themes by @jlk (<a href="https://cdn.discordapp.com/attachments/754405144325521530/999719389576310946/AMBER_J.m8t?ex=65e9efbc&amp;is=65d77abc&amp;hm=a9cf386ca2f4421113f11d94ec7fc1b752696dcfd727f4d100e3afee0c493323&amp;">amber</a>)(<a href="https://cdn.discordapp.com/attachments/754405144325521530/999719389907669022/SEAWEED_J.m8t?ex=65e9efbc&amp;is=65d77abc&amp;hm=4798b2439c4d396e214235138ab1ece85c2c786eee6babecf752913468a4a468&amp;">seaweed</a>)
+<img alt="Pasted image 20240226232511.png" src="../_attachments/Pasted%20image%2020240226232511.png"/></p>
+<p>Gruvbox theme by @zurvan (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1015012531007389806/GRUVBOX2.m8t?ex=65ea3395&amp;is=65d7be95&amp;hm=22c59580f00d6128edc9a88fa640d98bd4efd15a0371cf4509332952d00e9dd1&amp;">download</a>)
+<img alt="Pasted image 20240226232740.png" src="../_attachments/Pasted%20image%2020240226232740.png"/></p>
+<p>Darcula theme by @auz (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1015391911407800420/DANKULA.m8t?ex=65eb94e8&amp;is=65d91fe8&amp;hm=4b46ec4e78c5a655b7b0db7e4cca1acb4f5c0f79ecf9049c29e7eac007bb5ece&amp;">download</a>)
+<img alt="Pasted image 20240226232819.png" src="../_attachments/Pasted%20image%2020240226232819.png"/></p>
+<p>BACK2CLASS by @archiefunker (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1017184923242741931/BACK2CLASS.m8t?ex=65e8e048&amp;is=65d66b48&amp;hm=47a7163e96ea2a5eae9e1bf183037afe0e6bffb54369427d4c08e01d4540f33c&amp;">download</a>)</p>
+<p>One Dark theme by @rj_eckie (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1017184923242741931/BACK2CLASS.m8t?ex=65e8e048&amp;is=65d66b48&amp;hm=47a7163e96ea2a5eae9e1bf183037afe0e6bffb54369427d4c08e01d4540f33c&amp;">download</a>)
+<img alt="Pasted image 20240226232942.png" src="../_attachments/Pasted%20image%2020240226232942.png"/></p>
+<p>DUNGEON by @apticx (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040278955594354688/DUNGEON_by_apticx.m8t?ex=65e9d5c6&amp;is=65d760c6&amp;hm=b234dac4a0d1936ed4ea3f9f72d39657c5b684128bbbcd8fcb5a4459b5466d7c&amp;">download</a>)
+<img alt="Pasted image 20240226233012.png" src="../_attachments/Pasted%20image%2020240226233012.png"/></p>
+<p>EASYEYE by @apticx (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040554449585844305/EASYEYE.m8t?ex=65ead659&amp;is=65d86159&amp;hm=a9115f4c521cc1e14b45a7b226f072e29e9d66dd7b5d17ea25b4c2a7caa5784f&amp;">download</a>)
+<img alt="Pasted image 20240226233111.png" src="../_attachments/Pasted%20image%2020240226233111.png"/></p>
+<p>OVERWORLD by @apticx (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040555553916727467/OVERWORLD.m8t?ex=65ead760&amp;is=65d86260&amp;hm=e044cc25f3f3e57b21c7be07ec710e968c91377a503729cd7eef0060643ff111&amp;">download</a>)
+<img alt="Pasted image 20240226233156.png" src="../_attachments/Pasted%20image%2020240226233156.png"/></p>
+<p>SAKURA by @apticx (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040555986177503272/SAKURA.m8t?ex=65ead7c7&amp;is=65d862c7&amp;hm=ce55b15b49d2cb113bec21c8c2dd6885a123d231e5d649b83b958d9d2ff706d6&amp;">download</a>)
+<img alt="Pasted image 20240226233249.png" src="../_attachments/Pasted%20image%2020240226233249.png"/></p>
+<p>SUNLIGHT by @apticx (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040556440370303026/SUNLIGHT.m8t?ex=65ead833&amp;is=65d86333&amp;hm=93a2d6975bcb884762ef86ad61ce737c71de03ff4879606a592141f6ff38cffc&amp;">download</a>)
+<img alt="Pasted image 20240226233314.png" src="../_attachments/Pasted%20image%2020240226233314.png"/></p>
+<p>NIGHT_PINK by @skkeye (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040855542484181042/NIGHT_PINK.m8t?ex=65ebeec3&amp;is=65d979c3&amp;hm=adcd286be48d21c84233e7f0cfb9bcd861a80f3fead4ac414bda44443f80172f&amp;">download</a>)
+<img alt="Pasted image 20240226233503.png" src="../_attachments/Pasted%20image%2020240226233503.png"/></p>
+<p>Ableton Live theme by @skkeye (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1040856206794838016/ABLETON_LIVE.m8t?ex=65ebef61&amp;is=65d97a61&amp;hm=dff2c016e004cc0b081a4c02ae8818145dcaae6520940163f22d4c4e51a10b27&amp;">download</a>)
+<img alt="Pasted image 20240226233533.png" src="../_attachments/Pasted%20image%2020240226233533.png"/></p>
+<p>Cobalt2 theme by @gamingrobot (<a href="https://cdn.discordapp.com/attachments/754405144325521530/1048021174199795774/COBALT2.m8t?ex=65ea50c7&amp;is=65d7dbc7&amp;hm=5a0dfeccbfb90f36f15470d412e943554ab771cb11539d08df6decb53ca4c5b3&amp;">download</a>)
+<img alt="Pasted image 20240226233620.png" src="../_attachments/Pasted%20image%2020240226233620.png"/></p>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://mastodon.gamedev.place/@octopod" rel="noopener me" target="_blank" title="mastodon.gamedev.place">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.5 102.5 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5m-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"></path></svg>
+</a>
+<a class="md-social__link" href="https://github.com/bakana808" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
